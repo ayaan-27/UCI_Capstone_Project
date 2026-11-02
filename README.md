@@ -1,10 +1,12 @@
 # My Learning Coach — Bayesian DAG capstone
 
 ## Deliverables
-- `MLC_technical_presentation.pptx`: six editable slides following a plain-language research story, with first-person speaker notes.
+- `MLC_technical_presentation.pptx`: seven editable slides following a plain-language research story, with first-person speaker notes.
 - `MLC_technical_presentation.pdf`: portable presentation copy.
+- `MLC_technical_methods_slide.pptx` / `.pdf`: standalone technical slide with method, implementation and rationale.
+- `MLC_technical_methods_notes.txt`: first-person speaker notes for that slide.
 - `MLC_speaker_notes.txt`: a connected first-person script for speaking to a professor.
-- `MLC_speaker_notes.pdf`: the same script in a readable six-page rehearsal copy.
+- `MLC_speaker_notes.pdf`: the same script in a readable seven-page rehearsal copy.
 - `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
 - `mlc_results/`: generated tables, provenance, predictions and fitted DAG.
 
@@ -44,11 +46,12 @@ Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual e
 1. What a Bayesian DAG is: a map of assumed relationships, learned from data.
 2. Which student records fill the map.
 3. How the model learns and makes a forecast, with a real historical example.
-4. How earlier terms are used to check predictions for later students.
-5. What the results show, including the grades-only comparison and uncertainty.
-6. How to test whether surveys and online activity help at an earlier date.
+4. The technical methods: fixed linear Gaussian graph, Normal–Inverse-Gamma shrinkage, joint Gaussian conditioning, marginalization of missing prediction inputs, and mean/interval reporting.
+5. How earlier terms are used to check predictions for later students.
+6. What the results show, including the grades-only comparison and uncertainty.
+7. How to test whether surveys and online activity help at an earlier date.
 
-The slides explain model terms in plain language. The notes are written as connected first-person speech, with a transition to the next slide. All numerical results still come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. The final experiment is proposed work, not a new result.
+The technical slide explains what each method does and why it is used. It distinguishes median-filled training inputs from missing-evidence marginalization at prediction time, and marks the main intervals as using fitted parameters rather than fully integrating parameter uncertainty. The notes are written as connected first-person speech. All numerical results still come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. The final experiment is proposed work, not a new result.
 
 ## Evaluation with the available data
 

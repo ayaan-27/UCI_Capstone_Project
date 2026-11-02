@@ -34,9 +34,25 @@ A 90 percent range is meant to include the actual result for about nine out of t
 
 Missing surveys also need care. I used typical training values when learning, while allowing unknown inputs to remain uncertain when predicting.
 
-Now that I have explained the forecast, I will show how I checked it.
+Before I show how I checked the forecast, I will connect these steps to the technical methods used in the code.
 
-SLIDE 4 — I learn from earlier terms and check later students
+SLIDE 4 — Technical methods behind my Bayesian DAG
+
+Professor, this slide connects the technical names to the steps in my model. I chose the arrows in advance. The data learn their strengths rather than discovering a new graph.
+
+For each box, I use a linear Gaussian model. This means a weighted combination of its inputs, plus bell-shaped variation that those inputs do not explain. This keeps the marks as continuous percentages.
+
+Normal–Inverse-Gamma shrinkage gives me Bayesian estimates of both the weights and that unexplained variation. It discourages large weights unless the data support them. That matters because the dataset is small and many assignment marks carry similar information. I compared coefficient precisions of one and ten; the earlier-term checks selected ten.
+
+For prediction, I condition the fitted joint Gaussian on a student’s known inputs. This calculates their expected final percentage and its remaining uncertainty. If a prediction input is missing, I marginalize it, meaning I average over its possible values within the model. During training, however, missing inputs were filled with training medians; that is still an approximation.
+
+I return a mean and a 90 percent range. The basic Gaussian range is the mean plus or minus 1.645 standard deviations. I also checked rescaling it using earlier prediction errors, which produced the range in my example. The reported values are limited to zero through one hundred.
+
+These main ranges use fitted parameter estimates. They do not include all parameter uncertainty. The notebook adds a separate Student-t check for complete inputs, but not a full missing-data solution.
+
+With these methods explained, I can show how I checked the predictions.
+
+SLIDE 5 — I learn from earlier terms and check later students
 
 To check whether this approach can work beyond the students it learned from, I followed the order of the course terms. Within the older terms, I repeatedly learned from earlier classes and checked the next class. That helped me choose how many assessment scores to include and how cautious the model should be.
 
@@ -50,7 +66,7 @@ I will work with the six terms already available. They allow four checks where I
 
 With that testing process explained, I can now show the results and what they do and do not tell me.
 
-SLIDE 5 — The extra inputs have not improved average error yet
+SLIDE 6 — The extra inputs have not improved average error yet
 
 The numbers in this table measure prediction mistakes. They are not the students’ quiz marks or final grades. I calculate each mistake by taking the distance between a predicted percentage and the actual final percentage, then average those distances across the 43 students.
 
@@ -64,7 +80,7 @@ The reported ranges included the actual result for 39 of the 43 students. Howeve
 
 This leads to my next question: could the extra inputs help earlier, when fewer assessment results are available?
 
-SLIDE 6 — Next, I will test the extra inputs earlier
+SLIDE 7 — Next, I will test the extra inputs earlier
 
 My next experiment will focus on a time when the information could still be useful for student support. I would first choose a prediction date, such as the end of week four, and verify which surveys, activity records and assessment scores were actually available by that date.
 

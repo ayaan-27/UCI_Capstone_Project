@@ -1,0 +1,13 @@
+Professor, this slide connects the technical names to the steps in my model. I chose the arrows in advance. The data learn their strengths rather than discovering a new graph.
+
+For each box, I use a linear Gaussian model. This means a weighted combination of its inputs, plus bell-shaped variation that those inputs do not explain. This keeps the marks as continuous percentages.
+
+Normal–Inverse-Gamma shrinkage gives me Bayesian estimates of both the weights and that unexplained variation. It discourages large weights unless the data support them. That matters because the dataset is small and many assignment marks carry similar information. I compared coefficient precisions of one and ten; the earlier-term checks selected ten.
+
+For prediction, I condition the fitted joint Gaussian on a student’s known inputs. This calculates their expected final percentage and its remaining uncertainty. If a prediction input is missing, I marginalize it, meaning I average over its possible values within the model. During training, however, missing inputs were filled with training medians; that is still an approximation.
+
+I return a mean and a 90 percent range. The basic Gaussian range is the mean plus or minus 1.645 standard deviations. I also checked rescaling it using earlier prediction errors, which produced the range in my example. The reported values are limited to zero through one hundred.
+
+These main ranges use fitted parameter estimates. They do not include all parameter uncertainty. The notebook adds a separate Student-t check for complete inputs, but not a full missing-data solution.
+
+With these methods explained, I can show how I checked the predictions.
