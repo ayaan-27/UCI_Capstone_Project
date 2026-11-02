@@ -1,7 +1,7 @@
 # My Learning Coach — Bayesian DAG capstone
 
 ## Deliverables
-- `MLC_technical_presentation.pptx`: six editable slides with detailed presenter notes.
+- `MLC_technical_presentation.pptx`: seven editable slides with detailed presenter notes.
 - `MLC_technical_presentation.pdf`: portable presentation copy.
 - `MLC_speaker_notes.txt`: the same speaker notes as a standalone rehearsal guide.
 - `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
@@ -37,3 +37,7 @@ python -m pip install -r requirements.txt
 ```
 
 Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual environment, and run all cells. Keep the original data ZIP locally; `data/`, source ZIPs and virtual environments are ignored by Git.
+
+## Incremental-value experiment slide
+
+Slide 6 outlines a proposed time-matched comparison of grades-only, added wellness, added motivation, added engagement and full models. It specifies temporal evaluation, paired MAE improvement, distributional scoring, missingness sensitivity and new-cohort confirmation. These are proposed analyses, not new experimental results. The roadmap is now slide 7.
