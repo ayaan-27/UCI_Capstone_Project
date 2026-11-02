@@ -49,3 +49,7 @@ Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual e
 6. How to test whether surveys and online activity help at an earlier date.
 
 The slides explain model terms in plain language. The notes are written as connected first-person speech, with a transition to the next slide. All numerical results still come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. The final experiment is proposed work, not a new result.
+
+## Evaluation with the available data
+
+The presentation plans four earlier-to-later checks using the existing six terms; collecting a new class is not a project requirement. Spring 2026 was excluded from fitting but its results have already been reviewed, so repeated revisions checked against it are not independent confirmation. The results table distinguishes prediction errors from student marks: predicting the earlier-student mean (79.92%) for everyone gives MAE 8.13 points, while individualized assessment-based predictions give MAE 2.82 points. Verifying score release dates determines whether an earlier forecast could actually have used those marks.

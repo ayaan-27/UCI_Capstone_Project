@@ -44,21 +44,25 @@ After making those choices, I used the selected model to learn from 148 students
 
 The timeline shows that separation. I also kept the data preparation within the training group, so the later students did not determine the values used to prepare the earlier data.
 
-There is an important limit to this check. Spring 2026 has already been examined during earlier versions of this project. It gives me useful evidence, but I still need a new class that I have not inspected before.
+Spring 2026 was kept out of fitting, but its results have already been reviewed during this project. That does not mean I trained on those students. It means I should be careful about treating later changes to the approach as independently confirmed by that same class.
+
+I will work with the six terms already available. They allow four checks where I learn from earlier terms and predict the next term, starting with Spring 2025. I will report how the results vary between those checks.
 
 With that testing process explained, I can now show the results and what they do and do not tell me.
 
 SLIDE 5 — The extra inputs have not improved average error yet
 
-The first result is that the forecasts are fairly close on average in this historical check. The average distance between the full model’s prediction and the recorded final percentage was 2.83 percentage points. This is an average error, not a percentage accuracy, and some students had much larger errors.
+The numbers in this table measure prediction mistakes. They are not the students’ quiz marks or final grades. I calculate each mistake by taking the distance between a predicted percentage and the actual final percentage, then average those distances across the 43 students.
 
-The comparison tells me something more specific. A simple forecast using the earlier students’ average final grade had an average error of 8.13 points. Using the available assessment scores reduced that error to 2.82. Adding wellness, motivation and online activity gave 2.83, which is almost identical and slightly worse on this measure.
+The first approach gives everyone the same forecast: 79.92 percent, which is the average final result of the 148 earlier students. Its average mistake is 8.13 percentage points.
 
-So I have not shown that those additional inputs improve the final-grade prediction. I also cannot conclude that they will never help. The larger assessment set already contains a lot of information about the final result. Some assessment scores are also part of the final grade, so they naturally carry information about it. The survey data are incomplete as well.
+The second approach uses each student’s own assessment results, so different students receive different forecasts. Its average mistake is 2.82 points. For example, one student finished with 95.34 percent. The assessment-based forecast was about 94.00 percent, whereas the first approach still predicted 79.92.
 
-The reported ranges included the actual result for 39 of the 43 students, but the largest prediction error was about 25.7 points. Those findings are why I need to examine both the predictions and their uncertainty.
+The third approach also includes wellness, motivation and online activity. Its average mistake is 2.83 points, so those extra inputs have not improved this measure here. Assessment scores are already part of the final grade, which helps explain why they carry so much information.
 
-My next step is to test whether the additional inputs help earlier in the course.
+The reported ranges included the actual result for 39 of the 43 students. However, the largest individual mistake was about 25.7 points, so the average does not describe every student equally well.
+
+This leads to my next question: could the extra inputs help earlier, when fewer assessment results are available?
 
 SLIDE 6 — Next, I will test the extra inputs earlier
 
@@ -66,8 +70,10 @@ My next experiment will focus on a time when the information could still be usef
 
 I would then predict the same students using the same available grades. I would add wellness alone, motivation alone, and online activity alone, and finally compare a model that includes all of them. I would keep the rest of the comparison consistent so an improvement cannot simply come from using later grades or a different set of students.
 
-I would repeat this process across later terms and check both the average error and the prediction ranges. I would also investigate the 78 students who are missing early survey information, because that may affect the comparison.
+I would repeat this process across the later terms that are already in the dataset and check both the average error and the prediction ranges. I would also investigate the 78 students who are missing early survey information, because that may affect the comparison.
 
-Before examining a new class, I would agree on what size of improvement would be useful and keep the chosen model unchanged. If the additional inputs do not help, that is still a valid result.
+For each check, I would choose the model settings using earlier terms only, then predict the next term. Since this project uses existing data that have already been explored, I will describe the findings as evidence from past classes. If the additional inputs do not help, that is still a valid result.
+
+If score release dates cannot be recovered, I can still compare clearly named sets of scores, while stating that I cannot confirm how early those predictions could have been made.
 
 I would like your feedback on the prediction date and what evidence would make this useful for early student support.
