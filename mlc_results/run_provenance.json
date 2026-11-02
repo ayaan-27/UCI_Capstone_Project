@@ -1,0 +1,14 @@
+{
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "source_archive": "Annoymized Data-20261029T220403Z-1-001.zip",
+  "archive_sha256": "6313825aacc5140bac380ae0c48357daa20311604e5b606c449a49e627a18eff",
+  "seed": 42,
+  "calendar_status": "assumed; verify against instructional dates"
+}

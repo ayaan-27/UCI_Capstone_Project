@@ -1,0 +1,139 @@
+cohort,canonical_key,source_column,points_possible,n_students,numeric_marks,above_possible,release_time,availability_verified
+2024 FAL,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1454749),1.0,18,18,0,unknown,False
+2024 FAL,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1454624),51.0,18,18,0,unknown,False
+2024 FAL,quiz1_ethics,Quiz#1: Section II Ethics (1454648),40.0,18,18,0,unknown,False
+2024 FAL,ethics,Upload: Code of Ethics Essay Final (1454811),64.0,18,18,0,unknown,False
+2024 FAL,paper_a,Upload: IndividualPaperA Written Paper Final (1454845),64.0,18,18,0,unknown,False
+2024 FAL,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1454609),8.0,18,18,0,unknown,False
+2024 FAL,development,Exercise: Checking Understanding - Development and Structure (1454672),9.0,18,18,0,unknown,False
+2024 FAL,research,Exercise: Checking Understanding - Evidence and Research (1454704),6.0,18,18,0,unknown,False
+2024 FAL,language,Exercise: Checking Understanding - Language Style and Convention (1454627),8.0,18,18,0,unknown,False
+2024 FAL,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1454839),1.0,18,18,0,unknown,False
+2024 FAL,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1454793),4.0,18,18,0,unknown,False
+2024 FAL,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1454795),4.0,18,18,0,unknown,False
+2024 FAL,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1454790),4.0,18,18,0,unknown,False
+2024 FAL,group_a_written,Upload: GroupPaperA Written Paper Final  (1454833),64.0,18,18,0,unknown,False
+2024 FAL,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1454821),64.0,18,18,0,unknown,False
+2024 FAL,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1454831),16.0,18,18,0,unknown,False
+2024 FAL,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1454759),60.0,18,18,0,unknown,False
+2024 FAL,quiz2_ethics,Quiz#2: Section II Ethics  (1454637),40.0,18,18,0,unknown,False
+2024 FAL,paper_b,Upload: IndividualPaperB Written Final  (1454851),64.0,18,18,0,unknown,False
+2024 FAL,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1454797),4.0,18,18,0,unknown,False
+2024 FAL,pitch_reflection,Reflections: 90-sec Tech Pitch  (1454655),24.0,18,18,0,unknown,False
+2024 FAL,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1454807),1.0,18,18,0,unknown,False
+2024 FAL,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1454805),1.0,18,18,0,unknown,False
+2025 FAL,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1692367),1.0,20,20,0,unknown,False
+2025 FAL,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1692403),51.0,20,20,0,unknown,False
+2025 FAL,quiz1_ethics,Quiz#1: Section II Ethics (1692455),40.0,20,20,0,unknown,False
+2025 FAL,ethics,Upload: Code of Ethics Essay Outline Final (1692539),48.0,20,20,0,unknown,False
+2025 FAL,paper_a,Upload: IndividualPaperA Written Paper Final (1692573),64.0,20,20,0,unknown,False
+2025 FAL,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1692404),8.0,20,20,0,unknown,False
+2025 FAL,development,Exercise: Checking Understanding - Development and Structure (1692452),9.0,20,20,0,unknown,False
+2025 FAL,research,Exercise: Checking Understanding - Evidence and Research (1692412),6.0,20,20,0,unknown,False
+2025 FAL,language,Exercise: Checking Understanding - Language Style and Convention (1692361),8.0,20,20,0,unknown,False
+2025 FAL,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1692567),1.0,20,20,0,unknown,False
+2025 FAL,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1692512),4.0,20,20,0,unknown,False
+2025 FAL,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1692515),4.0,20,20,0,unknown,False
+2025 FAL,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1692506),4.0,20,20,0,unknown,False
+2025 FAL,group_a_written,Upload: GroupPaperA Written Paper Final  (1692561),64.0,20,20,0,unknown,False
+2025 FAL,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1692549),64.0,20,20,0,unknown,False
+2025 FAL,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1692559),16.0,20,20,0,unknown,False
+2025 FAL,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1692300),60.0,20,20,0,unknown,False
+2025 FAL,quiz2_ethics,Quiz#2: Section II Ethics  (1692372),40.0,20,20,0,unknown,False
+2025 FAL,paper_b,Upload: IndividualPaperB Written Final  (1692579),64.0,20,20,0,unknown,False
+2025 FAL,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1692519),4.0,20,20,0,unknown,False
+2025 FAL,pitch_reflection,Reflections: 90-sec Tech Pitch  (1692352),24.0,20,20,0,unknown,False
+2025 FAL,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1692537),1.0,20,20,0,unknown,False
+2025 FAL,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1692535),1.0,20,20,0,unknown,False
+2025 SPR,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1582448),1.0,43,43,0,unknown,False
+2025 SPR,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1582418),51.0,43,43,0,unknown,False
+2025 SPR,quiz1_ethics,Quiz#1: Section II Ethics (1582456),40.0,43,43,0,unknown,False
+2025 SPR,ethics,Upload: Code of Ethics Essay Outline Final (1582540),48.0,43,43,0,unknown,False
+2025 SPR,paper_a,Upload: IndividualPaperA Written Paper Final (1582573),64.0,43,43,0,unknown,False
+2025 SPR,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1582394),8.0,43,43,0,unknown,False
+2025 SPR,development,Exercise: Checking Understanding - Development and Structure (1582441),9.0,43,43,0,unknown,False
+2025 SPR,research,Exercise: Checking Understanding - Evidence and Research (1582402),6.0,43,43,0,unknown,False
+2025 SPR,language,Exercise: Checking Understanding - Language Style and Convention (1582440),8.0,43,43,0,unknown,False
+2025 SPR,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1582567),1.0,43,43,0,unknown,False
+2025 SPR,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1582522),4.0,43,43,0,unknown,False
+2025 SPR,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1582524),4.0,43,43,0,unknown,False
+2025 SPR,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1582519),4.0,43,43,0,unknown,False
+2025 SPR,group_a_written,Upload: GroupPaperA Written Paper Final  (1582561),64.0,43,43,0,unknown,False
+2025 SPR,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1582549),64.0,43,43,0,unknown,False
+2025 SPR,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1582559),16.0,43,43,0,unknown,False
+2025 SPR,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1582473),60.0,43,43,0,unknown,False
+2025 SPR,quiz2_ethics,Quiz#2: Section II Ethics  (1582461),40.0,43,43,0,unknown,False
+2025 SPR,paper_b,Upload: IndividualPaperB Written Final  (1582579),64.0,43,43,0,unknown,False
+2025 SPR,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1582526),4.0,43,43,0,unknown,False
+2025 SPR,pitch_reflection,Reflections: 90-sec Tech Pitch  (1582425),24.0,43,43,0,unknown,False
+2025 SPR,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1582536),1.0,43,43,0,unknown,False
+2025 SPR,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1582534),1.0,43,43,0,unknown,False
+2025 WTR,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1514742),1.0,27,26,0,unknown,False
+2025 WTR,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1514813),51.0,27,27,0,unknown,False
+2025 WTR,quiz1_ethics,Quiz#1: Section II Ethics (1514811),40.0,27,27,0,unknown,False
+2025 WTR,ethics,Upload: Code of Ethics Essay Outline Final (1520119),48.0,27,27,0,unknown,False
+2025 WTR,paper_a,Upload: IndividualPaperA Written Paper Final (1514967),64.0,27,27,0,unknown,False
+2025 WTR,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1514721),8.0,27,27,0,unknown,False
+2025 WTR,development,Exercise: Checking Understanding - Development and Structure (1514831),9.0,27,27,0,unknown,False
+2025 WTR,research,Exercise: Checking Understanding - Evidence and Research (1514867),6.0,27,27,0,unknown,False
+2025 WTR,language,Exercise: Checking Understanding - Language Style and Convention (1514761),8.0,27,27,0,unknown,False
+2025 WTR,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1514961),1.0,27,27,0,unknown,False
+2025 WTR,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1514915),4.0,27,27,0,unknown,False
+2025 WTR,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1514917),4.0,27,27,0,unknown,False
+2025 WTR,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1514912),4.0,27,27,0,unknown,False
+2025 WTR,group_a_written,Upload: GroupPaperA Written Paper Final  (1514955),64.0,27,27,0,unknown,False
+2025 WTR,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1514943),64.0,27,27,0,unknown,False
+2025 WTR,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1514953),16.0,27,27,0,unknown,False
+2025 WTR,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1514857),60.0,27,27,0,unknown,False
+2025 WTR,quiz2_ethics,Quiz#2: Section II Ethics  (1514763),40.0,27,27,0,unknown,False
+2025 WTR,paper_b,Upload: IndividualPaperB Written Final  (1514973),64.0,27,27,0,unknown,False
+2025 WTR,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1514919),4.0,27,27,0,unknown,False
+2025 WTR,pitch_reflection,Reflections: 90-sec Tech Pitch  (1514845),24.0,27,27,0,unknown,False
+2025 WTR,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1514929),1.0,27,27,0,unknown,False
+2025 WTR,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1514927),1.0,27,27,0,unknown,False
+2026 SPR,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1802826),1.0,43,43,0,unknown,False
+2026 SPR,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1802933),51.0,43,43,0,unknown,False
+2026 SPR,quiz1_ethics,Quiz#1: Section II Ethics (1802827),40.0,43,43,0,unknown,False
+2026 SPR,ethics,Upload: Code of Ethics Essay Outline Final (1802987),48.0,43,43,0,unknown,False
+2026 SPR,paper_a,Upload: IndividualPaperA Written Paper Final (1803022),64.0,43,43,0,unknown,False
+2026 SPR,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1802873),8.0,43,43,0,unknown,False
+2026 SPR,development,Exercise: Checking Understanding - Development and Structure (1802881),9.0,43,43,0,unknown,False
+2026 SPR,research,Exercise: Checking Understanding - Evidence and Research (1802842),6.0,43,43,0,unknown,False
+2026 SPR,language,Exercise: Checking Understanding - Language Style and Convention (1802863),8.0,43,43,0,unknown,False
+2026 SPR,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1803016),1.0,43,43,0,unknown,False
+2026 SPR,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1802971),4.0,43,43,0,unknown,False
+2026 SPR,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1802973),4.0,43,43,0,unknown,False
+2026 SPR,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1802968),4.0,43,43,0,unknown,False
+2026 SPR,group_a_written,Upload: GroupPaperA Written Paper Final  (1803010),64.0,43,43,0,unknown,False
+2026 SPR,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1802998),64.0,43,43,0,unknown,False
+2026 SPR,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1803008),16.0,43,43,0,unknown,False
+2026 SPR,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1802792),60.0,43,43,0,unknown,False
+2026 SPR,quiz2_ethics,Quiz#2: Section II Ethics  (1802797),40.0,43,43,0,unknown,False
+2026 SPR,paper_b,Upload: IndividualPaperB Written Final  (1803028),64.0,43,43,0,unknown,False
+2026 SPR,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1802975),4.0,43,43,0,unknown,False
+2026 SPR,pitch_reflection,Reflections: 90-sec Tech Pitch  (1802865),16.0,43,43,0,unknown,False
+2026 SPR,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1802985),1.0,43,43,0,unknown,False
+2026 SPR,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1802983),1.0,43,43,0,unknown,False
+2026 WTR,nspe,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1751359),1.0,40,40,0,unknown,False
+2026 WTR,quiz1_comm,Quiz#1: Section I Communications in the Professional World (1751401),51.0,40,40,0,unknown,False
+2026 WTR,quiz1_ethics,Quiz#1: Section II Ethics (1751484),40.0,40,40,0,unknown,False
+2026 WTR,ethics,Upload: Code of Ethics Essay Outline Final (1751541),48.0,40,40,0,unknown,False
+2026 WTR,paper_a,Upload: IndividualPaperA Written Paper Final (1751576),64.0,40,40,0,unknown,False
+2026 WTR,critical,Exercise: Checking Understanding - Critical Thinking and Analysis (1751432),8.0,40,40,0,unknown,False
+2026 WTR,development,Exercise: Checking Understanding - Development and Structure (1751369),9.0,40,40,0,unknown,False
+2026 WTR,research,Exercise: Checking Understanding - Evidence and Research (1751483),6.0,40,40,0,unknown,False
+2026 WTR,language,Exercise: Checking Understanding - Language Style and Convention (1751408),8.0,40,40,0,unknown,False
+2026 WTR,howto_draft,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1751570),1.0,40,40,0,unknown,False
+2026 WTR,howto_peer,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1751525),4.0,40,40,0,unknown,False
+2026 WTR,paper_a_peer,Participation: Peer Editing IndividualPaperA Effort (1751527),4.0,40,40,0,unknown,False
+2026 WTR,group_a_peer,Participation: Peer Editing GroupPaperA Effort (1751522),4.0,40,40,0,unknown,False
+2026 WTR,group_a_written,Upload: GroupPaperA Written Paper Final  (1751564),64.0,40,40,0,unknown,False
+2026 WTR,group_a_oral,Upload: GroupPaperA Oral Presentation Final (1751552),64.0,40,40,0,unknown,False
+2026 WTR,group_a_team,Upload: GroupPaperA Team Evaluation Scoring (1751562),16.0,40,40,0,unknown,False
+2026 WTR,quiz2_comm,Quiz#2: Section I Communications in the Professional World  (1751403),60.0,40,40,0,unknown,False
+2026 WTR,quiz2_ethics,Quiz#2: Section II Ethics  (1751419),40.0,40,40,0,unknown,False
+2026 WTR,paper_b,Upload: IndividualPaperB Written Final  (1751582),64.0,40,40,0,unknown,False
+2026 WTR,paper_b_peer,Participation: Peer Editing IndividualPaperB Effort (1751529),4.0,40,40,0,unknown,False
+2026 WTR,pitch_reflection,Reflections: 90-sec Tech Pitch  (1751386),16.0,40,40,0,unknown,False
+2026 WTR,pitch_written,Upload: 90-Sec Technology Pitch Written Final (1751539),1.0,40,40,0,unknown,False
+2026 WTR,pitch_video,Upload: 90-Sec Technology Pitch Video Final (1751537),1.0,40,40,0,unknown,False

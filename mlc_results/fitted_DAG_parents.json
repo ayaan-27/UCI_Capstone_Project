@@ -1,0 +1,109 @@
+{
+  "wellness": [],
+  "cost_support": [
+    "wellness"
+  ],
+  "expectancy": [
+    "wellness",
+    "cost_support"
+  ],
+  "value": [
+    "expectancy"
+  ],
+  "log_page_views": [
+    "expectancy",
+    "value",
+    "cost_support"
+  ],
+  "log_lms_participations": [
+    "log_page_views"
+  ],
+  "nspe_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "quiz1_comm_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "quiz1_ethics_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "ethics_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "paper_a_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "writing_exercises_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "early_peer_draft_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "group_a_written_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "group_a_oral_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "group_a_team_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "quiz2_comm_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "quiz2_ethics_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "paper_b_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "paper_b_peer_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "pitch_reflection_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "pitch_completion_pct": [
+    "expectancy",
+    "log_page_views"
+  ],
+  "percentage": [
+    "wellness",
+    "cost_support",
+    "expectancy",
+    "value",
+    "log_page_views",
+    "log_lms_participations",
+    "nspe_pct",
+    "quiz1_comm_pct",
+    "quiz1_ethics_pct",
+    "ethics_pct",
+    "paper_a_pct",
+    "writing_exercises_pct",
+    "early_peer_draft_pct",
+    "group_a_written_pct",
+    "group_a_oral_pct",
+    "group_a_team_pct",
+    "quiz2_comm_pct",
+    "quiz2_ethics_pct",
+    "paper_b_pct",
+    "paper_b_peer_pct",
+    "pitch_reflection_pct",
+    "pitch_completion_pct"
+  ]
+}

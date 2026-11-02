@@ -1,0 +1,1260 @@
+cohort,source_column,canonical_key,in_block_a,in_block_b,decision_reason,release_time
+2024 FAL,Student,,False,False,"join metadata, not a predictor",unknown
+2024 FAL,ID,,False,False,"join metadata, not a predictor",unknown
+2024 FAL,Section,,False,False,"join metadata, not a predictor",unknown
+2024 FAL,In-Class: Peer Introductions (1454771),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1454720),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Overall Goals for this Class (3 min) (1454599),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Three Main Course Takeaways (7.5 min) (1454748),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Baseline Assessments: Class Preparation (1454646),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Baseline Assessments: E190W Hong - Getting to know you (1454693),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1454664),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1454632),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1454757)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: How-to instructions (8.5 min) (1454737),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1454668),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1454839),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Video: Academic Scientific Writing vs Industry Technical Writing (6.5 min) (1454673),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: Intellectual Property - Copyright, Trademark, and Patents (12.5 min) (1454594)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignment: Code of Ethics Essay (6 min) (1454686),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Outlines - UNC Writing Center (3 min) (1454724),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: The Technical Writing Process (4.5 min) (1454633),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1454793),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1454749),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,"Document: Research Guide - Julia Gelfand, Engineering Librarian (1454639)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: Ethics Essay Outline Draft for In-Class Exercise (1454813),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Documenting your sources (5 min) (1454747),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Integrating information into your written work (5.5 min) (1454592),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignment: GroupPaperA/B (25.5 min) (1454701),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: Summarizing, Paraphrasing, and Quoting (14.5 min) (1454742)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Exercise: Preparation for In-Class Activity: GroupPaper Problem Focus Alignment with AI  (1464507),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,In-Class: Present GroupPaper Problem/Proposal Statement to class (1454773),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: Code of Ethics Essay Draft for Peer Editing (1454809),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Gantt Chart Team Task Draft (1454819),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Problem/Proposal Statement Draft (1454827),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Code of Ethics for sound engineering practices (5.5 min) (1454680),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Ethical failures (15 min) (1454598),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Exercising good engineering judgments (14.5 min) (1454697),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Peer editing best practices (8.5 min) (1454604),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Teamwork (5.5 min) (1454695),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Teamwork weak link (4.5 min) (1454621),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing Ethics Essay Effort (1454788),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1454709),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Abstracts vs Executive Summaries (3.5 min) (1454658),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1454722)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignment - IndividualPaperA - Ethics Essay Reflections (3 min) (1454638),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: Code of Ethics Essay Final (1454811),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Exercise: Checking Understanding - Critical Thinking and Analysis (1454609),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Exercise: Checking Understanding - Development and Structure (1454672),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Exercise: Checking Understanding - Evidence and Research (1454704),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Exercise: Checking Understanding - Language Style and Convention (1454627),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1454841),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Technical writing conventions (14.5 min) (1454652),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Exercise: Editing Exercise 1 (1454751),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,In-Class: Revise GroupPaper Outline in class (1454775),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Outline Draft v1 (1454823),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Relfections (1454844),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Active and Passive Voice - UBS Science Writing (6 min) (1454642),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Brevity Writing - ACS Webinars (2.5 min) (1454679),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Clarity Writing - UBC Science Writing (5 min) (1454677),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Simplicity Writing - ACS Webinars (4 min) (1454727),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Succinct Writing - UBC Science Writing (7 min) (1454763),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing IndividualPaperA Effort (1454795),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Participation:GroupPaperA Outline Draft v2 Effort (1454801),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Outline Draft v2  (1454825),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1463042),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1454743),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: IndividualPaperA Written Paper Final (1454845),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: GroupPaperA Draft for Peer Editing (1454817),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1454601),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Create slides people will remember (HBS) (3 min) (1454622),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Effective technical presentations (15 min) (1454645),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Individual vs group presentations (4.5 min) (1454681),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing GroupPaperA Effort (1454790),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Quiz#1: Section I Communications in the Professional World (1454624),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Quiz#1: Section II Ethics (1454648),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Extra Credit: Mid-Course Feedback Survey  (1481983),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Individual GroupPaperA Research Notes Effort (1454786),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Reflections: Meeting with the UCI Librarian (1454753),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Research Notes Final (1454829),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,In-Class: GroupPaperA Presentations (1454768),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: GroupPaperA Presentation Individual Feedback Effort (1454777),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: GroupPaperA Presentation Q&A Effort by Team (1454779),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1454781),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperA Oral Presentation Final (1454821),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: GroupPaperA Team Evaluation Scoring (1454831),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: GroupPaperA Written Paper Final  (1454833),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Video: Elevator Pitch (3 min) (1454661),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Elevator Pitch Template with Chris Westfall (3 min) (1454674),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignment: 90-sec tech pitch (3 min) (1454719),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1454687),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: The Art of the Elevator Pitch - Boston University (2 min) (1454682),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1454750)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1454755),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Exercise: Editing Exercise 6 (1454614),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,In-Class: 90-Sec Technology Pitch (1454766),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Clarity and precision in technical writing (9 min) (1454654),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Reflections: 90-sec Tech Pitch  (1454655),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: 90-Sec Technology Pitch Video Final (1454805),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: 90-Sec Technology Pitch Written Final (1454807),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1454849),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Decrease the noise in the technical writing process (15.5 min) (1454703),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Readability Analysis (8 min) (1454623),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: IndividualPaperB Draft for Peer Editing (1454847),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing IndividualPaperB Effort (1454797),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Quiz#2: Section I Communications in the Professional World  (1454759),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Quiz#2: Section II Ethics  (1454637),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Video:  Visual Aids - Shannon Daniels (6.5 min) (1454651),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Communication sender and receiver relationships - speaking (7.5 min) (1454607),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Decrease the noise in visuals (6 min) (1454641),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1454595),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Effective presentations visuals - University of Melbourne (5.5 min) (1454716),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: How to give an awesome presentation - Wienot Films (3 min) (1454718),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaper Visual Aide - The Hook (1454815),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: IndividualPaperB Written Final  (1454851),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2024 FAL,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1454689),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperB Draft for Peer Editing (1454835),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Upload: Resume for Peer Editing (1454853),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Career fair best practices (8 min) (1454676),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1454745)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Video: Six tips for effective resume (14 min) (1454660),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Participation: Peer Editing GroupPaperB Effort (1454792),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Participation: Peer Editing Resume Effort  (1454799),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,In-Class: GroupPaperB Presentations (1454770),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Participation: GroupPaperB Presentation Individual Feedback Effort (1454783),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Participation: GroupPaperB Presentation Q&A Effort by Team (1454784),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1454785),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Upload: GroupPaperB Oral Presentation Final (1454836),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Upload: GroupPaperB Team Evaluation Scoring (1454837),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Extra Credit: GroupPaper Team Leader  (1454765),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1454838),,False,False,later Group B work excluded from these bundles,unknown
+2024 FAL,Extra Credit: Pre-Class Tasks Improvement Survey (1454699),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Roll Call Attendance (1454803),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,My Learning Coach: Final Feedback (1463706),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,My Learning Coach: Five State of Mind Check-ins (1463694),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,FinalQuiz: Section I Communications in the Professional World (True/False) (1454756),,False,False,final quiz excluded from both earlier bundles,unknown
+2024 FAL,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1454734),,False,False,final quiz excluded from both earlier bundles,unknown
+2024 FAL,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1454617)",,False,False,final quiz excluded from both earlier bundles,unknown
+2024 FAL,Extra Credit: Final Course Feedback Survey (1454764),,False,False,release timing not established or outside selected assessment bundles,unknown
+2024 FAL,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: My Learning Coach Pilot Testing  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: My Learning Coach Pilot Testing  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: My Learning Coach Pilot Testing  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Extra Credit: My Learning Coach Pilot Testing  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Placeholders Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Placeholders Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Placeholders Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Placeholders Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Final Score,,False,False,target only,unknown
+2024 FAL,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2024 FAL,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Student,,False,False,"join metadata, not a predictor",unknown
+2025 FAL,ID,,False,False,"join metadata, not a predictor",unknown
+2025 FAL,Section,,False,False,"join metadata, not a predictor",unknown
+2025 FAL,In-Class: Peer Introductions (1692483),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1692351),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Overall Goals for this Class (3 min) (1692315),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Three Main Course Takeaways (7.5 min) (1692430),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Baseline Assessments: Class Preparation (1692444),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Baseline Assessments: E190W Hong - Getting to know you (1692302),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1692387),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1692318),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1692362)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: How-to instructions (8.5 min) (1692346),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1692330),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1692567),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Video: Academic Scientific Writing vs Industry Technical Writing (6.5 min) (1692417),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: Intellectual Property - Copyright, Trademark, and Patents (12.5 min) (1692427)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Major Assignment: Code of Ethics Essay Outline (4 min) (1692378),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Outlines - UNC Writing Center (3 min) (1692316),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: The Technical Writing Process (4.5 min) (1692317),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1692512),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1692367),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: Ethics Essay Outline Draft for In-Class Exercise (1692541),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Documenting your sources (5 min) (1692408),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Integrating information into your written work (5.5 min) (1692414),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Major Assignment: GroupPaperA/B (6 min) (1692298),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: Summarizing, Paraphrasing, and Quoting (14.5 min) (1692364)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Walk-thru: UCI Library - ENGR 190W Information Ecosystems (15 min) (1692358),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Walk-thru: UCI Library - ENGR 190W Information valuation and evaluation (15 min) (1692402),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Walk-thru: UCI Library - Resources for ENGR190W Intro (5 min) (1692389),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Walk-thru: UCI Library - Search Strategies (5 min) (1692314),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Exercise: Preparation for In-Class Activity: GroupPaper Problem Focus Alignment with AI (1692382),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,In-Class: Present GroupPaper Problem/Proposal Statement to class (1692487),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Gantt Chart Team Task Draft (1692547),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Problem/Proposal Statement Draft (1692555),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Code of Ethics for sound engineering practices (5.5 min) (1692407),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Ethical failures (15 min) (1692374),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Exercising good engineering judgments (14.5 min) (1692419),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Peer editing best practices (8.5 min) (1692353),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Teamwork (5.5 min) (1692391),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Teamwork weak link (4.5 min) (1692385),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: Code of Ethics Essay Outline Final (1692539),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1692398),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Abstracts vs Executive Summaries (3.5 min) (1692396),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1692423)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Major Assignment - IndividualPaperA - Ethics Essay Outline Reflections (3 min) (1692460),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Exercise: Checking Understanding - Critical Thinking and Analysis (1692404),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Exercise: Checking Understanding - Development and Structure (1692452),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Exercise: Checking Understanding - Evidence and Research (1692412),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Exercise: Checking Understanding - Language Style and Convention (1692361),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1692569),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Technical writing conventions (14.5 min) (1692434),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Exercise: Editing Exercise 1 (1692368),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,In-Class: Revise GroupPaper Outline in class (1692490),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Outline Draft v1 (1692551),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Outline Reflections (1692570),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Active and Passive Voice - UBS Science Writing (6 min) (1692301),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Clarity Writing - UBC Science Writing (5 min) (1692397),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Succinct Writing - UBC Science Writing (7 min) (1692335),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Peer Editing IndividualPaperA Effort (1692515),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Participation:GroupPaperA Outline Draft v2 Effort (1692527),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Outline Draft v2  (1692553),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1692376),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1692446),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: IndividualPaperA Written Paper Final (1692573),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: GroupPaperA Draft for Peer Editing (1692545),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1692331),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Create slides people will remember (HBS) (3 min) (1692354),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Effective technical presentations (15 min) (1692451),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Individual vs group presentations (4.5 min) (1692436),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Peer Editing GroupPaperA Effort (1692506),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Quiz#1: Section I Communications in the Professional World (1692403),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Quiz#1: Section II Ethics (1692455),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Extra Credit: Mid-Course Feedback Survey  (1692323),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Individual GroupPaperA Research Notes Effort (1692503),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Reflections: Research Takeaways (1692435),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Research Notes Final (1692557),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,In-Class: GroupPaperA Presentations (1692478),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: GroupPaperA Presentation Individual Feedback Effort (1692494),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: GroupPaperA Presentation Q&A Effort by Team (1692496),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1692498),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperA Oral Presentation Final (1692549),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: GroupPaperA Team Evaluation Scoring (1692559),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: GroupPaperA Written Paper Final  (1692561),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Video: Elevator Pitch (3 min) (1692443),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Elevator Pitch Template with Chris Westfall (3 min) (1692309),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Major Assignment: 90-sec tech pitch (3 min) (1692381),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1692328),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: The Art of the Elevator Pitch - Boston University (2 min) (1692338),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,In-Class: 90-Sec Technology Pitch (1692475),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1692329)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Reflections: 90-sec Tech Pitch  (1692352),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: 90-Sec Technology Pitch Video Final (1692535),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Upload: 90-Sec Technology Pitch Written Final (1692537),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1692411),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Exercise: Editing Exercise 6 (1692438),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1692577),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Clarity and precision in technical writing (9 min) (1692319),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: IndividualPaperB Draft for Peer Editing (1692575),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Decrease the noise in the technical writing process (15.5 min) (1692394),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Readability Analysis (8 min) (1692458),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Peer Editing IndividualPaperB Effort (1692519),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Quiz#2: Section I Communications in the Professional World  (1692300),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Quiz#2: Section II Ethics  (1692372),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Video:  Visual Aids - Shannon Daniels (6.5 min) (1692357),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Communication sender and receiver relationships - speaking (7.5 min) (1692344),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Decrease the noise in visuals (6 min) (1692432),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1692454),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Effective presentations visuals - University of Melbourne (5.5 min) (1692325),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: How to give an awesome presentation - Wienot Films (3 min) (1692406),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaper Visual Aide - The Hook (1692543),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: IndividualPaperB Written Final  (1692579),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 FAL,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1692395),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperB Draft for Peer Editing (1692563),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Upload: Resume for Peer Editing (1692581),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Career fair best practices (8 min) (1692349),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1692334)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Video: Six tips for effective resume (14 min) (1692426),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Participation: Peer Editing GroupPaperB Effort (1692510),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Participation: Peer Editing Resume Effort  (1692523),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,In-Class: GroupPaperB Presentations (1692482),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Participation: GroupPaperB Presentation Individual Feedback Effort (1692500),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Participation: GroupPaperB Presentation Q&A Effort by Team (1692501),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1692502),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Upload: GroupPaperB Oral Presentation Final (1692564),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Upload: GroupPaperB Team Evaluation Scoring (1692565),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Extra Credit: GroupPaper Team Leader  (1692469),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1692566),,False,False,later Group B work excluded from these bundles,unknown
+2025 FAL,Extra Credit: Pre-Class Tasks Improvement Survey (1692333),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Roll Call Attendance (1692531),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Extra Credit: My Learning Coach: End-of-Term Usage Feedback (1692472),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Extra Credit: My Learning Coach: Five State of Mind Check-ins (1692473),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,Extra Credit: Final Course Feedback Survey (1692466),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 FAL,FinalQuiz: Section I Communications in the Professional World (True/False) (1692332),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 FAL,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1692413),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 FAL,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1692449)",,False,False,final quiz excluded from both earlier bundles,unknown
+2025 FAL,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: My Learning Coach Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: My Learning Coach Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: My Learning Coach Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Extra Credit: My Learning Coach Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Final Score,,False,False,target only,unknown
+2025 FAL,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 FAL,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Student,,False,False,"join metadata, not a predictor",unknown
+2025 SPR,ID,,False,False,"join metadata, not a predictor",unknown
+2025 SPR,Section,,False,False,"join metadata, not a predictor",unknown
+2025 SPR,In-Class: Peer Introductions (1582501),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1582352),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Overall Goals for this Class (3 min) (1582338),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Three Main Course Takeaways (7.5 min) (1582483),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Baseline Assessments: Class Preparation (1582480),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Baseline Assessments: E190W Hong - Getting to know you (1582427),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1582342),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1582379),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1582408)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: How-to instructions (8.5 min) (1582439),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1582330),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1582567),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Video: Academic Scientific Writing vs Industry Technical Writing (6.5 min) (1582355),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: Intellectual Property - Copyright, Trademark, and Patents (12.5 min) (1582385)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Major Assignment: Code of Ethics Essay Outline (4 min) (1582436),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Outlines - UNC Writing Center (3 min) (1582336),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: The Technical Writing Process (4.5 min) (1582428),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1582522),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1582448),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,"Document: Research Guide - Julia Gelfand, Engineering Librarian (1582482)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: Ethics Essay Outline Draft for In-Class Exercise (1582541),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Documenting your sources (5 min) (1582334),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Integrating information into your written work (5.5 min) (1582403),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Major Assignment: GroupPaperA/B (25.5 min) (1582426),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: Summarizing, Paraphrasing, and Quoting (14.5 min) (1582363)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Exercise: Preparation for In-Class Activity: GroupPaper Problem Focus Alignment with AI  (1582335),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,In-Class: Present GroupPaper Problem/Proposal Statement to class (1582503),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Gantt Chart Team Task Draft (1582547),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Problem/Proposal Statement Draft (1582555),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Code of Ethics for sound engineering practices (5.5 min) (1582433),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Ethical failures (15 min) (1582333),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Exercising good engineering judgments (14.5 min) (1582404),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Peer editing best practices (8.5 min) (1582477),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Teamwork (5.5 min) (1582458),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Teamwork weak link (4.5 min) (1582413),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: Code of Ethics Essay Outline Final (1582540),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1582465),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Abstracts vs Executive Summaries (3.5 min) (1582397),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1582376)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Major Assignment - IndividualPaperA - Ethics Essay Outline Reflections (3 min) (1582409),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Exercise: Checking Understanding - Critical Thinking and Analysis (1582394),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Exercise: Checking Understanding - Development and Structure (1582441),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Exercise: Checking Understanding - Evidence and Research (1582402),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Exercise: Checking Understanding - Language Style and Convention (1582440),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1582569),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Technical writing conventions (14.5 min) (1582437),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Exercise: Editing Exercise 1 (1582475),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,In-Class: Revise GroupPaper Outline in class (1582505),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Outline Draft v1 (1582551),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Outline Reflections (1582571),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Active and Passive Voice - UBS Science Writing (6 min) (1582490),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Clarity Writing - UBC Science Writing (5 min) (1582455),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Succinct Writing - UBC Science Writing (7 min) (1582420),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Peer Editing IndividualPaperA Effort (1582524),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Participation:GroupPaperA Outline Draft v2 Effort (1582530),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Outline Draft v2  (1582553),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1582349),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1582481),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: IndividualPaperA Written Paper Final (1582573),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: GroupPaperA Draft for Peer Editing (1582545),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1582348),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Create slides people will remember (HBS) (3 min) (1582442),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Effective technical presentations (15 min) (1582369),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Individual vs group presentations (4.5 min) (1582400),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Peer Editing GroupPaperA Effort (1582519),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Quiz#1: Section I Communications in the Professional World (1582418),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Quiz#1: Section II Ethics (1582456),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Extra Credit: Mid-Course Feedback Survey  (1582412),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Individual GroupPaperA Research Notes Effort (1582516),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Reflections: Meeting with the UCI Librarian (1582395),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Research Notes Final (1582557),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,In-Class: GroupPaperA Presentations (1582498),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: GroupPaperA Presentation Individual Feedback Effort (1582507),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: GroupPaperA Presentation Q&A Effort by Team (1582509),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1582511),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperA Oral Presentation Final (1582549),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: GroupPaperA Team Evaluation Scoring (1582559),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: GroupPaperA Written Paper Final  (1582561),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Video: Elevator Pitch (3 min) (1582429),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Elevator Pitch Template with Chris Westfall (3 min) (1582446),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Major Assignment: 90-sec tech pitch (3 min) (1582432),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1582457),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: The Art of the Elevator Pitch - Boston University (2 min) (1582416),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,In-Class: 90-Sec Technology Pitch (1582496),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1582424)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Reflections: 90-sec Tech Pitch  (1582425),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: 90-Sec Technology Pitch Video Final (1582534),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: 90-Sec Technology Pitch Written Final (1582536),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1582443),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Exercise: Editing Exercise 6 (1582344),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1582577),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Clarity and precision in technical writing (9 min) (1582324),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: IndividualPaperB Draft for Peer Editing (1582575),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Decrease the noise in the technical writing process (15.5 min) (1582346),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Readability Analysis (8 min) (1582435),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Peer Editing IndividualPaperB Effort (1582526),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Quiz#2: Section I Communications in the Professional World  (1582473),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Quiz#2: Section II Ethics  (1582461),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Upload: IndividualPaperB Written Final  (1582579),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 SPR,Video:  Visual Aids - Shannon Daniels (6.5 min) (1582414),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Communication sender and receiver relationships - speaking (7.5 min) (1582388),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Decrease the noise in visuals (6 min) (1582389),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1582340),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Effective presentations visuals - University of Melbourne (5.5 min) (1582382),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: How to give an awesome presentation - Wienot Films (3 min) (1582331),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaper Visual Aide - The Hook (1582543),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1582468),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperB Draft for Peer Editing (1582563),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Upload: Resume for Peer Editing (1582581),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Career fair best practices (8 min) (1582472),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1582417)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Video: Six tips for effective resume (14 min) (1582450),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Participation: Peer Editing GroupPaperB Effort (1582521),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Participation: Peer Editing Resume Effort  (1582528),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,In-Class: GroupPaperB Presentations (1582500),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Participation: GroupPaperB Presentation Individual Feedback Effort (1582513),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Participation: GroupPaperB Presentation Q&A Effort by Team (1582514),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1582515),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Upload: GroupPaperB Oral Presentation Final (1582564),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Upload: GroupPaperB Team Evaluation Scoring (1582565),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Extra Credit: GroupPaper Team Leader  (1582493),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1582566),,False,False,later Group B work excluded from these bundles,unknown
+2025 SPR,Extra Credit: Pre-Class Tasks Improvement Survey (1582419),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Extra Credit: Final Course Feedback Survey (1582492),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Extra Credit: My Learning Coach: End-of-Term Usage Feedback (1582494),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Extra Credit: My Learning Coach: Five State of Mind Check-ins (1582495),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,FinalQuiz: Section I Communications in the Professional World (True/False) (1582392),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 SPR,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1582332),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 SPR,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1582476)",,False,False,final quiz excluded from both earlier bundles,unknown
+2025 SPR,Roll Call Attendance (1582532),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 SPR,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: My Learning Coach Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: My Learning Coach Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: My Learning Coach Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Extra Credit: My Learning Coach Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Final Score,,False,False,target only,unknown
+2025 SPR,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 SPR,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Student,,False,False,"join metadata, not a predictor",unknown
+2025 WTR,ID,,False,False,"join metadata, not a predictor",unknown
+2025 WTR,Section,,False,False,"join metadata, not a predictor",unknown
+2025 WTR,In-Class: Peer Introductions (1514891),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1514777),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Overall Goals for this Class (3 min) (1514800),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Three Main Course Takeaways (7.5 min) (1514730),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Baseline Assessments: Class Preparation (1514781),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Baseline Assessments: E190W Hong - Getting to know you (1514824),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1514756),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1514791),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1514860)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: How-to instructions (8.5 min) (1514797),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1514820),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1514961),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Video: Academic Scientific Writing vs Industry Technical Writing (6.5 min) (1514840),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: Intellectual Property - Copyright, Trademark, and Patents (12.5 min) (1514760)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Major Assignment: Code of Ethics Essay Outline (4 min) (1514765),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Outlines - UNC Writing Center (3 min) (1514739),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: The Technical Writing Process (4.5 min) (1514772),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1514915),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1514742),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,"Document: Research Guide - Julia Gelfand, Engineering Librarian (1514829)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: Ethics Essay Outline Draft for In-Class Exercise (1514935),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Documenting your sources (5 min) (1514740),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Integrating information into your written work (5.5 min) (1514817),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Major Assignment: GroupPaperA/B (25.5 min) (1514881),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: Summarizing, Paraphrasing, and Quoting (14.5 min) (1514854)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Exercise: Preparation for In-Class Activity: GroupPaper Problem Focus Alignment with AI  (1514796),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,In-Class: Present GroupPaper Problem/Proposal Statement to class (1514893),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Gantt Chart Team Task Draft (1514941),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Problem/Proposal Statement Draft (1514949),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Code of Ethics for sound engineering practices (5.5 min) (1514784),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Ethical failures (15 min) (1514786),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Exercising good engineering judgments (14.5 min) (1514868),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Peer editing best practices (8.5 min) (1514788),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Teamwork (5.5 min) (1514754),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Teamwork weak link (4.5 min) (1514880),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: Code of Ethics Essay Outline Final (1520119),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1514732),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Abstracts vs Executive Summaries (3.5 min) (1514866),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1514782)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Major Assignment - IndividualPaperA - Ethics Essay Outline Reflections (3 min) (1514771),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Exercise: Checking Understanding - Critical Thinking and Analysis (1514721),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Exercise: Checking Understanding - Development and Structure (1514831),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Exercise: Checking Understanding - Evidence and Research (1514867),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Exercise: Checking Understanding - Language Style and Convention (1514761),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1514963),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Technical writing conventions (14.5 min) (1514839),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Exercise: Editing Exercise 1 (1514856),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,In-Class: Revise GroupPaper Outline in class (1514895),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Outline Draft v1 (1514945),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Outline Reflections (1514966),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Active and Passive Voice - UBS Science Writing (6 min) (1514735),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Clarity Writing - UBC Science Writing (5 min) (1514779),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Succinct Writing - UBC Science Writing (7 min) (1514801),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Peer Editing IndividualPaperA Effort (1514917),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Participation:GroupPaperA Outline Draft v2 Effort (1514923),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Outline Draft v2  (1514947),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1514849),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1514802),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: IndividualPaperA Written Paper Final (1514967),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Extra Credit: Mid-Course Feedback Survey  (1514864),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Individual GroupPaperA Research Notes Effort (1514908),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Reflections: Meeting with the UCI Librarian (1514808),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Research Notes Final (1514951),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Draft for Peer Editing (1514939),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1514764),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Create slides people will remember (HBS) (3 min) (1514863),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Effective technical presentations (15 min) (1514737),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Individual vs group presentations (4.5 min) (1514724),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Peer Editing GroupPaperA Effort (1514912),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Quiz#1: Section I Communications in the Professional World (1514813),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Quiz#1: Section II Ethics (1514811),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,In-Class: GroupPaperA Presentations (1514888),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: GroupPaperA Presentation Individual Feedback Effort (1514899),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: GroupPaperA Presentation Q&A Effort by Team (1514901),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1514903),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperA Oral Presentation Final (1514943),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Upload: GroupPaperA Team Evaluation Scoring (1514953),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Upload: GroupPaperA Written Paper Final  (1514955),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Video: Elevator Pitch (3 min) (1514851),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Elevator Pitch Template with Chris Westfall (3 min) (1514841),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Major Assignment: 90-sec tech pitch (3 min) (1514727),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1514832),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: The Art of the Elevator Pitch - Boston University (2 min) (1514729),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,In-Class: 90-Sec Technology Pitch (1514886),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1514769)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Reflections: 90-sec Tech Pitch  (1514845),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Upload: 90-Sec Technology Pitch Video Final (1514927),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Upload: 90-Sec Technology Pitch Written Final (1514929),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1514852),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Exercise: Editing Exercise 6 (1514741),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1514971),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Clarity and precision in technical writing (9 min) (1514818),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: IndividualPaperB Draft for Peer Editing (1514969),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Decrease the noise in the technical writing process (15.5 min) (1514875),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Readability Analysis (8 min) (1514819),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Peer Editing IndividualPaperB Effort (1514919),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Quiz#2: Section I Communications in the Professional World  (1514857),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Quiz#2: Section II Ethics  (1514763),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Video:  Visual Aids - Shannon Daniels (6.5 min) (1514823),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Communication sender and receiver relationships - speaking (7.5 min) (1514865),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Decrease the noise in visuals (6 min) (1514767),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1514792),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Effective presentations visuals - University of Melbourne (5.5 min) (1514778),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: How to give an awesome presentation - Wienot Films (3 min) (1514842),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaper Visual Aide - The Hook (1514937),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: IndividualPaperB Written Final  (1514973),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2025 WTR,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1514882),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperB Draft for Peer Editing (1514957),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Upload: Resume for Peer Editing (1514975),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Career fair best practices (8 min) (1514838),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1514828)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Video: Six tips for effective resume (14 min) (1514725),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Participation: Peer Editing GroupPaperB Effort (1514914),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Participation: Peer Editing Resume Effort  (1514921),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,In-Class: GroupPaperB Presentations (1514890),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Participation: GroupPaperB Presentation Individual Feedback Effort (1514905),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Participation: GroupPaperB Presentation Q&A Effort by Team (1514906),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1514907),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Upload: GroupPaperB Oral Presentation Final (1514958),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Upload: GroupPaperB Team Evaluation Scoring (1514959),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Extra Credit: GroupPaper Team Leader  (1514885),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1514960),,False,False,later Group B work excluded from these bundles,unknown
+2025 WTR,Extra Credit: Pre-Class Tasks Improvement Survey (1514755),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Roll Call Attendance (1514925),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Extra Credit: My Learning Coach: End-of-Term Usage Feedback (1514897),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Extra Credit: My Learning Coach: Five State of Mind Check-ins (1514898),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,FinalQuiz: Section I Communications in the Professional World (True/False) (1514858),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 WTR,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1514869),,False,False,final quiz excluded from both earlier bundles,unknown
+2025 WTR,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1514738)",,False,False,final quiz excluded from both earlier bundles,unknown
+2025 WTR,Extra Credit: Final Course Feedback Survey (1514884),,False,False,release timing not established or outside selected assessment bundles,unknown
+2025 WTR,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: My Learning Coach Pilot Testing  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: My Learning Coach Pilot Testing  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: My Learning Coach Pilot Testing  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Extra Credit: My Learning Coach Pilot Testing  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Life-Long Learning Mastery: Grit & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Placeholders Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Placeholders Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Placeholders Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Placeholders Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Final Score,,False,False,target only,unknown
+2025 WTR,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2025 WTR,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Student,,False,False,"join metadata, not a predictor",unknown
+2026 SPR,ID,,False,False,"join metadata, not a predictor",unknown
+2026 SPR,Section,,False,False,"join metadata, not a predictor",unknown
+2026 SPR,In-Class: Peer Introductions (1802951),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1802911),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Overall Goals for this Class (3 min) (1802789),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Three Main Course Takeaways (7.5 min) (1802922),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Baseline Assessments: Class Preparation (1802913),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Baseline Assessments: E190W Hong - Getting to know you (1802932),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1802891),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1802895),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1802860)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: How-to instructions (8.5 min) (1802892),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1802893),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1803016),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Video: Academic Scientific Writing vs Industry Technical Writing (5 min) (1802887),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Build Your Argument (5 min) (1802822),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,"Video: Intellectual Property (IP) - Copyright, Trademark, and Patent (7 min) (1802844)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Major Assignment: Code of Ethics Essay Outline (4 min) (1802935),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Three Stages of Effective Writing Process (6 min) (1802850),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1802971),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1802826),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: Ethics Essay Outline Draft for In-Class Exercise (1802989),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Engineering Judgement (5 min) (1802885),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Major Assignment: GroupPaperA/B (6 min) (1802898),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Teamwork weak link (4.5 min) (1802907),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Teamwork: From Pain to Power (6 min) (1802825),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: Code of Ethics Essay Outline Final (1802987),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Walk-thru: UCI Library - ENGR 190W Information Ecosystems (15 min) (1802848),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Walk-thru: UCI Library - ENGR 190W Information valuation and evaluation (15 min) (1802926),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Walk-thru: UCI Library - Resources for ENGR190W Intro (5 min) (1802883),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Walk-thru: UCI Library - Search Strategies (5 min) (1802894),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1802847),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Abstracts vs Executive Summaries (3.5 min) (1802805),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1802861)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Major Assignment - IndividualPaperA - Ethics Essay Outline Reflections (3 min) (1802888),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaper Problem (Purpose) / Solution (Focus) Mapping and Team Meeting with Instructor (1802991),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Gantt Chart Team Task Draft (1802996),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Exercise: Checking Understanding - Critical Thinking and Analysis (1802873),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Exercise: Checking Understanding - Development and Structure (1802881),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Exercise: Checking Understanding - Evidence and Research (1802842),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Exercise: Checking Understanding - Language Style and Convention (1802863),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1803018),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Technical writing conventions (14.5 min) (1802804),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Exercise: Editing Exercise 1 (1802905),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,In-Class: Revise GroupPaper Outline in class (1802955),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Outline Draft v1 (1803000),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Outline Reflections (1803019),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Active and Passive Voice - UBS Science Writing (6 min) (1802819),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Clarity Writing - UBC Science Writing (5 min) (1802834),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Succinct Writing - UBC Science Writing (7 min) (1802820),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Peer Editing IndividualPaperA Effort (1802973),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Participation:GroupPaperA Outline Draft v2 Effort (1802979),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Outline Draft v2  (1803002),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: IndividualPaperA Written Paper Final (1803022),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1802801),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1802903),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Draft for Peer Editing (1802994),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1802912),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Create slides people will remember (HBS) (3 min) (1802783),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Effective technical presentations (15 min) (1802902),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Individual vs group presentations (4.5 min) (1802841),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Peer Editing GroupPaperA Effort (1802968),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Quiz#1: Section I Communications in the Professional World (1802933),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Quiz#1: Section II Ethics (1802827),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Extra Credit: Mid-Course Feedback Survey  (1802811),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Individual GroupPaperA Research Notes Effort (1802966),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Reflections: Research Takeaways (1802821),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Research Notes Final (1803006),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,In-Class: GroupPaperA Presentations (1802948),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: GroupPaperA Presentation Individual Feedback Effort (1802957),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: GroupPaperA Presentation Q&A Effort by Team (1802959),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1802961),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperA Oral Presentation Final (1802998),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: GroupPaperA Team Evaluation Scoring (1803008),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: GroupPaperA Written Paper Final  (1803010),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Video: Elevator Pitch (3 min) (1802806),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Elevator Pitch Template with Chris Westfall (3 min) (1802870),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Major Assignment: 90-sec tech pitch (3 min) (1802878),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1802810),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: The Art of the Elevator Pitch - Boston University (2 min) (1802868),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,In-Class: 90-Sec Technology Pitch (1802946),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1802858)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Reflections: 90-sec Tech Pitch  (1802865),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: 90-Sec Technology Pitch Video Final (1802983),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: 90-Sec Technology Pitch Written Final (1802985),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1802882),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Exercise: Editing Exercise 6 (1802909),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1803026),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Clarity and precision in technical writing (9 min) (1802814),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: IndividualPaperB Draft for Peer Editing (1803024),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Decrease the noise in the technical writing process (15.5 min) (1802854),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Readability Analysis (8 min) (1802835),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Peer Editing IndividualPaperB Effort (1802975),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Quiz#2: Section I Communications in the Professional World  (1802792),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Quiz#2: Section II Ethics  (1802797),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Upload: IndividualPaperB Written Final  (1803028),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 SPR,Video:  Visual Aids - Shannon Daniels (6.5 min) (1802788),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Communication sender and receiver relationships - speaking (7.5 min) (1802921),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Decrease the noise in visuals (6 min) (1802818),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1802889),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Effective presentation visuals - University of Melbourne (5.5 min) (1802928),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: How to give an awesome presentation - Wienot Films (3 min) (1802815),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaper Visual Aide - The Hook (1802992),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1802793),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperB Draft for Peer Editing (1803012),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Upload: Resume for Peer Editing (1803030),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Career fair best practices (8 min) (1802925),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1802876)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Video: Six tips for effective resume (14 min) (1802791),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Participation: Peer Editing GroupPaperB Effort (1802970),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Participation: Peer Editing Resume Effort  (1802977),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,In-Class: GroupPaperB Presentations (1802950),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Participation: GroupPaperB Presentation Individual Feedback Effort (1802963),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Participation: GroupPaperB Presentation Q&A Effort by Team (1802964),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1802965),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Upload: GroupPaperB Oral Presentation Final (1803013),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Upload: GroupPaperB Team Evaluation Scoring (1803014),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Extra Credit: GroupPaper Team Leader  (1802942),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1803015),,False,False,later Group B work excluded from these bundles,unknown
+2026 SPR,Extra Credit: Pre-Class Tasks Improvement Survey (1802852),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Roll Call Attendance (1802981),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Extra Credit: My Learning Coach: End-of-Term Usage Feedback (1802944),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Extra Credit: My Learning Coach: Five State of Mind Check-ins (1802945),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,FinalQuiz: Section I Communications in the Professional World (True/False) (1802899),,False,False,final quiz excluded from both earlier bundles,unknown
+2026 SPR,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1802855),,False,False,final quiz excluded from both earlier bundles,unknown
+2026 SPR,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1802896)",,False,False,final quiz excluded from both earlier bundles,unknown
+2026 SPR,Extra Credit: Final Course Feedback Survey (1802940),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 SPR,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: My Learning Coach Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: My Learning Coach Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: My Learning Coach Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Extra Credit: My Learning Coach Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Final Score,,False,False,target only,unknown
+2026 SPR,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 SPR,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Student,,False,False,"join metadata, not a predictor",unknown
+2026 WTR,ID,,False,False,"join metadata, not a predictor",unknown
+2026 WTR,Section,,False,False,"join metadata, not a predictor",unknown
+2026 WTR,In-Class: Peer Introductions (1751505),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Communications in the Professional World - What does it mean and why does it matter? (7.5 min) (1751423),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Overall Goals for this Class (3 min) (1751377),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Three Main Course Takeaways (7.5 min) (1751481),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Baseline Assessments: Class Preparation (1751425),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Baseline Assessments: E190W Hong - Getting to know you (1751393),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Baseline Assessments: ENGR190W Hong Flipped Instruction Model (1751374),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Baseline Assessments: In-Class E190W Hong Evaluation (Writing Baseline Assessment) (1751449),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,"Video: Guest Speaker - Thang Ly, Director of Engineering, IMI Asia (42.5 min) (1751430)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: How-to instructions (8.5 min) (1751336),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Major Assignment - How-To Instructions Paper Airplane (3 min) (1751364),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: How-To Instructions Paper Airplane Draft for Peer Editing (1751570),howto_draft,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Video: Academic Scientific Writing vs Industry Technical Writing (5 min) (1751457),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Build Your Argument (5 min) (1751357),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,"Video: Intellectual Property (IP) - Copyright, Trademark, and Patent (7 min) (1751407)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Major Assignment: Code of Ethics Essay Outline (4 min) (1751454),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Three Stages of Effective Writing Process (6 min) (1751380),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Peer Editing How-To Paper Airplane Instructions Effort (1751525),howto_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Quiz: National Society of Professional Engineers (NSPE) Code of Ethics  (1751359),nspe,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: Ethics Essay Outline Draft for In-Class Exercise (1751543),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Engineering Judgement (5 min) (1751458),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Major Assignment: GroupPaperA/B (6 min) (1751440),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Teamwork weak link (4.5 min) (1751428),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Teamwork: From Pain to Power (6 min) (1751448),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: Code of Ethics Essay Outline Final (1751541),ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Walk-thru: UCI Library - ENGR 190W Information Ecosystems (15 min) (1751456),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Walk-thru: UCI Library - ENGR 190W Information valuation and evaluation (15 min) (1751470),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Walk-thru: UCI Library - Resources for ENGR190W Intro (5 min) (1751463),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Walk-thru: UCI Library - Search Strategies (5 min) (1751363),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video:  Layering Reports - The Executive Summary 1 - Purdue OWL (7 min) (1751438),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Abstracts vs Executive Summaries (3.5 min) (1751368),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,"Video: Guest Speaker - Percival Guevarra, UCI Center of Excellence in Writing and Communication (9 min) (1751395)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Major Assignment - IndividualPaperA - Ethics Essay Outline Reflections (3 min) (1751433),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaper Problem (Purpose) / Solution (Focus) Mapping and Team Meeting with Instructor (1751545),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Gantt Chart Team Task Draft (1751550),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Exercise: Checking Understanding - Critical Thinking and Analysis (1751432),critical,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Exercise: Checking Understanding - Development and Structure (1751369),development,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Exercise: Checking Understanding - Evidence and Research (1751483),research,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Exercise: Checking Understanding - Language Style and Convention (1751408),language,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: IndividualPaperA - Ethics Essay Reflections Outline Draft for In-Class Exercise  (1751572),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Technical writing conventions (14.5 min) (1751360),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Exercise: Editing Exercise 1 (1751365),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,In-Class: Revise GroupPaper Outline in class (1751509),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Outline Draft v1 (1751554),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: IndividualPaperA Draft for Peer Editing - Ethics Essay Outline Reflections (1751573),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Active and Passive Voice - UBS Science Writing (6 min) (1751489),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Clarity Writing - UBC Science Writing (5 min) (1751491),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Succinct Writing - UBC Science Writing (7 min) (1751358),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Peer Editing IndividualPaperA Effort (1751527),paper_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Participation:GroupPaperA Outline Draft v2 Effort (1751533),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Outline Draft v2  (1751556),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: IndividualPaperA Written Paper Final (1751576),paper_a,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Exercise: Preparation for In-Class Activity: Intellectual Property Ownership and Ethical Considerations of AI-Generated Content (1751379),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: US Patent and Trademark Office (USPTO) First Inventor To File (20 min) (1751400),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Draft for Peer Editing (1751548),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Common structures of great communicators (Nancy Duarte) (18.5 min) (1751382),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Create slides people will remember (HBS) (3 min) (1751462),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Effective technical presentations (15 min) (1751416),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Individual vs group presentations (4.5 min) (1751445),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Peer Editing GroupPaperA Effort (1751522),group_a_peer,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Quiz#1: Section I Communications in the Professional World (1751401),quiz1_comm,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Quiz#1: Section II Ethics (1751484),quiz1_ethics,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Extra Credit: Mid-Course Feedback Survey  (1751420),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Individual GroupPaperA Research Notes Effort (1751520),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Reflections: Research Takeaways (1751389),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Research Notes Final (1751560),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,In-Class: GroupPaperA Presentations (1751502),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: GroupPaperA Presentation Individual Feedback Effort (1751511),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: GroupPaperA Presentation Q&A Effort by Team (1751513),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: GroupPaperA Team Evaluation Individual Feedback Effort (1751515),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperA Oral Presentation Final (1751552),group_a_oral,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: GroupPaperA Team Evaluation Scoring (1751562),group_a_team,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: GroupPaperA Written Paper Final  (1751564),group_a_written,True,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Video: Elevator Pitch (3 min) (1751459),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Elevator Pitch Template with Chris Westfall (3 min) (1751354),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Major Assignment: 90-sec tech pitch (3 min) (1751443),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Six Tips for a Great Elevator Pitch - CNBC Reports (2.5 min) (1751372),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: The Art of the Elevator Pitch - Boston University (2 min) (1751465),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,In-Class: 90-Sec Technology Pitch (1751500),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,"Video: Make Body Language Your Superpower (Stanford Graduate School of Business, 13.7 min) (1751391)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Reflections: 90-sec Tech Pitch  (1751386),pitch_reflection,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: 90-Sec Technology Pitch Video Final (1751537),pitch_video,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: 90-Sec Technology Pitch Written Final (1751539),pitch_written,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Video: Major Assignments - IndividualPaperB and GroupPaperB (7 min) (1751434),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Exercise: Editing Exercise 6 (1751378),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: IndividualPaperB Outline Draft for In-Class Exercise  (1751580),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Clarity and precision in technical writing (9 min) (1751413),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: IndividualPaperB Draft for Peer Editing (1751578),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Decrease the noise in the technical writing process (15.5 min) (1751455),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Readability Analysis (8 min) (1751339),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Peer Editing IndividualPaperB Effort (1751529),paper_b_peer,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Quiz#2: Section I Communications in the Professional World  (1751403),quiz2_comm,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Quiz#2: Section II Ethics  (1751419),quiz2_ethics,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Upload: IndividualPaperB Written Final  (1751582),paper_b,False,True,included; checkpoint assumes release of this assessment,unknown
+2026 WTR,Video:  Visual Aids - Shannon Daniels (6.5 min) (1751431),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Communication sender and receiver relationships - speaking (7.5 min) (1751418),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Decrease the noise in visuals (6 min) (1751345),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Decrease the noise in visuals for your GroupPaper (9 min) (1751426),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Effective presentation visuals - University of Melbourne (5.5 min) (1751349),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: How to give an awesome presentation - Wienot Films (3 min) (1751451),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaper Visual Aide - The Hook (1751546),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Article: I’ve helped hundreds of people land 6-figure salaries. These 5 job interview phrases got them hired ‘on the spot’ (6 min) (1751444),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperB Draft for Peer Editing (1751566),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Upload: Resume for Peer Editing (1751584),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Career fair best practices (8 min) (1751441),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,"Video: How to Prepare for the Career Fair - Engineering Career Services - University of Colorado, Boulder (6 min) (1751362)",,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Video: Six tips for effective resume (14 min) (1751390),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Participation: Peer Editing GroupPaperB Effort (1751524),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Participation: Peer Editing Resume Effort  (1751531),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,In-Class: GroupPaperB Presentations (1751504),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Participation: GroupPaperB Presentation Individual Feedback Effort (1751517),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Participation: GroupPaperB Presentation Q&A Effort by Team (1751518),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Participation: GroupPaperB Team Evaluation Individual Feedback Effort  (1751519),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Upload: GroupPaperB Oral Presentation Final (1751567),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Upload: GroupPaperB Team Evaluation Scoring (1751568),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Extra Credit: GroupPaper Team Leader  (1751496),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Upload: GroupPaperB Written Paper (+ GroupPaperB Executive Summary) Final (1751569),,False,False,later Group B work excluded from these bundles,unknown
+2026 WTR,Extra Credit: Pre-Class Tasks Improvement Survey (1751351),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Roll Call Attendance (1751535),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Extra Credit: My Learning Coach: Five State of Mind Check-ins (1751499),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Extra Credit: My Learning Coach: End-of-Term Usage Feedback (1751498),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,FinalQuiz: Section I Communications in the Professional World (True/False) (1751439),,False,False,final quiz excluded from both earlier bundles,unknown
+2026 WTR,FinalQuiz: Section II Communications in the Professional World (Multiple Choice) (1751473),,False,False,final quiz excluded from both earlier bundles,unknown
+2026 WTR,"FinalQuiz: Section III Ethics (True/False, Multiple Answers, Optional Class Feedback) (1751453)",,False,False,final quiz excluded from both earlier bundles,unknown
+2026 WTR,Extra Credit: Final Course Feedback Survey (1751494),,False,False,release timing not established or outside selected assessment bundles,unknown
+2026 WTR,Written Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Growth Mindset Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Growth Mindset Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Growth Mindset Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Growth Mindset Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Surveys Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Surveys Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Surveys Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Surveys Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Team Manager Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Team Manager Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Team Manager Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: Team Manager Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: My Learning Coach Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: My Learning Coach Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: My Learning Coach Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Extra Credit: My Learning Coach Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I - SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I - SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I - SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery I - SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Written Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery I SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Verbal Mastery II SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Teamwork Mastery SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,LIfe-Long Learning Mastery: Growth Mindset SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  SMR Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  SMR Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Life-Long Learning Mastery: Resilience & Agency  SMR Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Unposted Current Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Final Score,,False,False,target only,unknown
+2026 WTR,Unposted Final Score,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Unposted Current Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown
+2026 WTR,Unposted Final Grade,,False,False,end-of-course aggregate/label; unavailable historical snapshot,unknown

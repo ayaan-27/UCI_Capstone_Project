@@ -1,0 +1,5 @@
+{
+  "scenario": "Block B: second assessment bundle",
+  "shrinkage": 10.0,
+  "selection": "minimum macro earlier-cohort MAE among full models"
+}
