@@ -1,0 +1,11 @@
+Professor, this is the structure used in my notebook. The first slide showed one path to introduce the idea. This slide brings the other connections back into view.
+
+On the left are six measured inputs. Wellness connects to the support and barrier score, and to confidence. The support and barrier score also connects to confidence and page views. Confidence connects to the value students see in the course and to page views. Course value also connects to page views, and page views connect to recorded online participation.
+
+The notebook calls confidence expectancy. It calls the support and barrier score cost_support; higher answers generally describe fewer barriers or better support. The two activity measures are transformed page views and participation on the course website. They do not directly measure MLC use.
+
+On the right, I grouped sixteen assessment variables so the slide remains readable. The model still keeps sixteen separate scores. Confidence and page views both connect to every one of them, giving thirty-two arrows. Each assessment score then connects to the final course percentage. All six inputs on the left also connect directly to that final result.
+
+Together, that gives twenty-three variables and sixty-two arrows. The arrows say which relationships I allow the model to use. They do not show how strong those relationships are, or prove cause and effect. I chose the structure; the data estimate the strengths.
+
+This also explains why including wellness in the graph does not automatically mean it improves predictions. That needs the grades-only comparison we discuss later. Next, I will show how I learn the relationships and produce a forecast.

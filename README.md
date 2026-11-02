@@ -1,12 +1,14 @@
 # My Learning Coach — Bayesian DAG capstone
 
 ## Deliverables
-- `MLC_technical_presentation.pptx`: seven editable slides following a plain-language research story, with first-person speaker notes.
+- `MLC_technical_presentation.pptx`: eight editable slides following a plain-language research story, with first-person speaker notes.
 - `MLC_technical_presentation.pdf`: portable presentation copy.
+- `MLC_original_DAG_slide.pptx` / `.pdf`: readable grouped view of the original fitted graph, with speaker notes in `MLC_original_DAG_notes.txt`.
+- `mlc_results/expanded_full_DAG.svg`: complete original graph with all individual nodes and edges, for zooming.
 - `MLC_technical_methods_slide.pptx` / `.pdf`: standalone technical slide with method, implementation and rationale.
 - `MLC_technical_methods_notes.txt`: first-person speaker notes for that slide.
 - `MLC_speaker_notes.txt`: a connected first-person script for speaking to a professor.
-- `MLC_speaker_notes.pdf`: the same script in a readable seven-page rehearsal copy.
+- `MLC_speaker_notes.pdf`: the same script in a readable eight-page rehearsal copy.
 - `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
 - `mlc_results/`: generated tables, provenance, predictions and fitted DAG.
 
@@ -45,13 +47,16 @@ Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual e
 
 1. What a Bayesian DAG is: a map of assumed relationships, learned from data.
 2. Which student records fill the map.
-3. How the model learns and makes a forecast, with a real historical example.
-4. The technical methods: fixed linear Gaussian graph, Normal–Inverse-Gamma shrinkage, joint Gaussian conditioning, marginalization of missing prediction inputs, and mean/interval reporting.
-5. How earlier terms are used to check predictions for later students.
-6. What the results show, including the grades-only comparison and uncertainty.
-7. How to test whether surveys and online activity help at an earlier date.
+3. The original graph: 23 variables and 62 arrows, with the 16 assessment nodes grouped for readability.
+4. How the model learns and makes a forecast, with a real historical example.
+5. The technical methods: fixed linear Gaussian graph, Normal–Inverse-Gamma shrinkage, joint Gaussian conditioning, marginalization of missing prediction inputs, and mean/interval reporting.
+6. How earlier terms are used to check predictions for later students.
+7. What the results show, including the grades-only comparison and uncertainty.
+8. How to test whether surveys and online activity help at an earlier date.
 
-The technical slide explains what each method does and why it is used. It distinguishes median-filled training inputs from missing-evidence marginalization at prediction time, and marks the main intervals as using fitted parameters rather than fully integrating parameter uncertainty. The notes are written as connected first-person speech. All numerical results still come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. The final experiment is proposed work, not a new result.
+The graph slide is checked against `fitted_DAG_parents.json`: eight arrows among the six survey/LMS inputs, expectancy and log page views as parents of each of sixteen assessment nodes (32 arrows), and all 22 inputs as parents of final percentage. Grouping is purely visual; it does not replace the sixteen observed scores with one score or a latent variable. Source labels `expectancy`, `value`, and `cost_support` are explained as confidence, course value, and support/barriers. The activity inputs are transformed LMS counts, not MLC use.
+
+The technical slide distinguishes median-filled training inputs from missing-evidence marginalization at prediction time, and marks the main intervals as using fitted parameters rather than fully integrating parameter uncertainty. The notes are connected first-person speech. All numerical results come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. Arrows are assumed conditional relationships, not established causal effects or proof of incremental predictive value. The final experiment is proposed work, not a new result.
 
 ## Evaluation with the available data
 

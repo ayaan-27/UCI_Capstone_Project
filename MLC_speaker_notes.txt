@@ -20,9 +20,23 @@ I converted assignment marks into percentages so scores with different maximum p
 
 The surveys and activity summaries use the first four assumed teaching weeks. However, I still need to confirm when each assessment score was released. That means this is a study using past records, rather than a verified week-four forecast.
 
-Once these inputs are prepared, the next step is to learn from earlier students.
+Before I explain the learning step, I will show how these inputs are connected in the original graph.
 
-SLIDE 3 — I learn from past students, then make a forecast
+SLIDE 3 — The original DAG used in my notebook
+
+Professor, this is the structure used in my notebook. The first slide showed one path to introduce the idea. This slide brings the other connections back into view.
+
+On the left are six measured inputs. Wellness connects to the support and barrier score, and to confidence. The support and barrier score also connects to confidence and page views. Confidence connects to the value students see in the course and to page views. Course value also connects to page views, and page views connect to recorded online participation.
+
+The notebook calls confidence expectancy. It calls the support and barrier score cost_support; higher answers generally describe fewer barriers or better support. The two activity measures are transformed page views and participation on the course website. They do not directly measure MLC use.
+
+On the right, I grouped sixteen assessment variables so the slide remains readable. The model still keeps sixteen separate scores. Confidence and page views both connect to every one of them, giving thirty-two arrows. Each assessment score then connects to the final course percentage. All six inputs on the left also connect directly to that final result.
+
+Together, that gives twenty-three variables and sixty-two arrows. The arrows say which relationships I allow the model to use. They do not show how strong those relationships are, or prove cause and effect. I chose the structure; the data estimate the strengths.
+
+This also explains why including wellness in the graph does not automatically mean it improves predictions. That needs the grades-only comparison we discuss later. Next, I will show how I learn the relationships and produce a forecast.
+
+SLIDE 4 — I learn from past students, then make a forecast
 
 I keep the arrows fixed. For each box, the model learns how much weight to give the inputs pointing into it, and how much variation those inputs do not explain.
 
@@ -36,7 +50,7 @@ Missing surveys also need care. I used typical training values when learning, wh
 
 Before I show how I checked the forecast, I will connect these steps to the technical methods used in the code.
 
-SLIDE 4 — Technical methods behind my Bayesian DAG
+SLIDE 5 — Technical methods behind my Bayesian DAG
 
 Professor, this slide connects the technical names to the steps in my model. I chose the arrows in advance. The data learn their strengths rather than discovering a new graph.
 
@@ -52,7 +66,7 @@ These main ranges use fitted parameter estimates. They do not include all parame
 
 With these methods explained, I can show how I checked the predictions.
 
-SLIDE 5 — I learn from earlier terms and check later students
+SLIDE 6 — I learn from earlier terms and check later students
 
 To check whether this approach can work beyond the students it learned from, I followed the order of the course terms. Within the older terms, I repeatedly learned from earlier classes and checked the next class. That helped me choose how many assessment scores to include and how cautious the model should be.
 
@@ -66,7 +80,7 @@ I will work with the six terms already available. They allow four checks where I
 
 With that testing process explained, I can now show the results and what they do and do not tell me.
 
-SLIDE 6 — The extra inputs have not improved average error yet
+SLIDE 7 — The extra inputs have not improved average error yet
 
 The numbers in this table measure prediction mistakes. They are not the students’ quiz marks or final grades. I calculate each mistake by taking the distance between a predicted percentage and the actual final percentage, then average those distances across the 43 students.
 
@@ -80,7 +94,7 @@ The reported ranges included the actual result for 39 of the 43 students. Howeve
 
 This leads to my next question: could the extra inputs help earlier, when fewer assessment results are available?
 
-SLIDE 7 — Next, I will test the extra inputs earlier
+SLIDE 8 — Next, I will test the extra inputs earlier
 
 My next experiment will focus on a time when the information could still be useful for student support. I would first choose a prediction date, such as the end of week four, and verify which surveys, activity records and assessment scores were actually available by that date.
 
