@@ -1,9 +1,10 @@
 # My Learning Coach — Bayesian DAG capstone
 
 ## Deliverables
-- `MLC_technical_presentation.pptx`: seven editable slides with detailed presenter notes.
+- `MLC_technical_presentation.pptx`: six editable slides following a plain-language research story, with first-person speaker notes.
 - `MLC_technical_presentation.pdf`: portable presentation copy.
-- `MLC_speaker_notes.txt`: the same speaker notes as a standalone rehearsal guide.
+- `MLC_speaker_notes.txt`: a connected first-person script for speaking to a professor.
+- `MLC_speaker_notes.pdf`: the same script in a readable six-page rehearsal copy.
 - `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
 - `mlc_results/`: generated tables, provenance, predictions and fitted DAG.
 
@@ -38,6 +39,13 @@ python -m pip install -r requirements.txt
 
 Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual environment, and run all cells. Keep the original data ZIP locally; `data/`, source ZIPs and virtual environments are ignored by Git.
 
-## Incremental-value experiment slide
+## Presentation flow
 
-Slide 6 outlines a proposed time-matched comparison of grades-only, added wellness, added motivation, added engagement and full models. It specifies temporal evaluation, paired MAE improvement, distributional scoring, missingness sensitivity and new-cohort confirmation. These are proposed analyses, not new experimental results. The roadmap is now slide 7.
+1. What a Bayesian DAG is: a map of assumed relationships, learned from data.
+2. Which student records fill the map.
+3. How the model learns and makes a forecast, with a real historical example.
+4. How earlier terms are used to check predictions for later students.
+5. What the results show, including the grades-only comparison and uncertainty.
+6. How to test whether surveys and online activity help at an earlier date.
+
+The slides explain model terms in plain language. The notes are written as connected first-person speech, with a transition to the next slide. All numerical results still come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. The final experiment is proposed work, not a new result.

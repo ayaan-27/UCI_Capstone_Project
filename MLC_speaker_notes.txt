@@ -1,33 +1,73 @@
-SLIDE 1 — Forecast final performance from available evidence
+SLIDE 1 — A Bayesian DAG is a map I can learn from
 
-Open with the research question: at a defined prediction date, which observed variables provide stable information about final course percentage? The platform context is agentic learning support, but this notebook evaluates a predictive research model, not an operational coaching agent. The supplied data yield 191 unique student-course observations across six terms: 18, 27, 43, 20, 40 and 43. The survey file has 8,976 item-response rows; neither those repeated rows nor LMS student-week records are independent students. The present target is recorded final percentage. Predictions can later be translated into threshold risk probabilities, but this is not yet validated in the submitted workflow. Do not claim causal benefit of MLC or 19,000 independent training examples.
+Professor, I am using a Bayesian DAG to connect information about a student with their final course result. I find it helpful to think of this as two parts: a map, and a way to learn from data.
 
+The DAG is the map. Each box represents something I measure, and the arrows show the relationships I assume. DAG stands for directed acyclic graph. In plain language, the arrows have a direction, and following them never brings me back to where I started.
 
-SLIDE 2 — One student-term row; explicit feature eligibility
+The picture shows one path in my larger model: wellness connects to confidence, confidence connects to online activity, activity connects to assessment scores, and those scores connect to the final result. I chose these connections; the arrows do not prove that one thing causes another.
 
-Explain the analytical unit and the feature window. Marks are normalized using the gradebook Points Possible row. Repeated assignments are pooled into named grade-history features; aggregation requires all component marks, so a blank is not silently converted to zero. The raw LMS charts are deduplicated at student-week level with a consistency check. Only complete weekly bins inside the assumed first four instructional weeks are used; survey item responses are averaged within sessions and then students. Log1p transforms are used for pageviews and participations. Block A and B are release-bundle assumptions because the grade exports have no release timestamps or historical grade versions. Week-4 survey/LMS cutoffs do not make the complete bundles week-4 forecasts. Calendar start dates are explicit assumptions to verify. The manifest excludes direct totals and selected late assessments, but cannot prove historical availability. 78/191 students lack all four early survey features. Missing-data modeling is a major limitation.
+The Bayesian part describes how I learn the strengths of these relationships. I start with cautious estimates and update them using earlier students’ data.
 
+With that idea in place, I will show you what information I put into the map.
 
-SLIDE 3 — A reviewable 23-node, 62-edge Gaussian DAG
+SLIDE 2 — I fill the map with four kinds of information
 
-The six-node predictor subgraph has eight exact arrows: wellness to cost/support and expectancy; cost/support to expectancy and log pageviews; expectancy to value and log pageviews; value to log pageviews; and log pageviews to log LMS participations. Each of sixteen grade nodes receives expectancy and pageviews, giving 32 more arrows. All six non-grade predictors and all sixteen grades are parents of final percentage, giving 22 more arrows. Total: 23 nodes and 62 edges. The complete fitted graph is exported as SVG/DOT in the notebook results. This compressed view is a faithful rule-based decomposition. The graph is fixed and not inferred from correlations. With complete predictor evidence, the outcome CPD reduces to regularized Bayesian regression; the joint predictor graph is relevant when evidence is missing. A theory-informed causal graph with prior ability, MLC use, section/term context and selection mechanisms remains future work, so causal confounding is not resolved by the current graph.
+To fill the map, I brought together the grade records, student surveys and course website activity. Although the files contain thousands of repeated entries, my final modeling table has 191 students across six terms, from Fall 2024 through Spring 2026.
 
+I grouped the inputs into four areas. Wellness describes how students reported feeling. Motivation includes their confidence in learning, the value they see in the course, and their ratings of barriers and support. Online activity includes page views and recorded participation. Assessment history includes quiz, paper and other assignment scores.
 
-SLIDE 4 — Learn local CPDs; condition on available evidence
+I converted assignment marks into percentages so scores with different maximum points could be compared, and I removed repeated activity records. I then compared a smaller set of ten assessment measures with a larger set of sixteen.
 
-The model standardizes using training-fold parameters and fits each linear Gaussian conditional distribution under a Normal–Inverse-Gamma prior. Intercept precision is 0.001, coefficient precision is either 1 or 10, and inverse-gamma shape/scale are 2 and 1 in standardized units. Parameters are estimated in closed form; no MCMC or automatic structure learning is used. The original model substitutes coefficient posterior means and residual-variance posterior means into a joint Gaussian and analytically conditions on observed inputs. Missing prediction-time inputs are marginalized within that fitted joint Gaussian, but missing training inputs are median-imputed. Original intervals therefore do not integrate posterior parameter uncertainty. The update retains posterior parameters and adds exact Student-t outcome-CPD predictions for complete retained predictor evidence. These are exact conditional on the fixed training preprocessing and imputed training design, not a full Bayesian treatment of missing data. Complete-case diagnostics must not be compared as though they used the same student population as the original all-student result. The updated notebook also verifies sequential and batch conjugate updates agree under frozen preprocessing.
+The surveys and activity summaries use the first four assumed teaching weeks. However, I still need to confirm when each assessment score was released. That means this is a study using past records, rather than a verified week-four forecast.
 
+Once these inputs are prepared, the next step is to learn from earlier students.
 
-SLIDE 5 — Useful retrospective forecasts; no added signal shown
+SLIDE 3 — I learn from past students, then make a forecast
 
-Training expands over time: train Fall 2024 + Winter 2025 and validate Spring 2025; add Spring and validate Fall 2025; add Fall and validate Winter 2026. Folds have 43, 20 and 40 validation students. Select by equal-cohort-weight MAE among four full-model configurations only. The final fit uses 148 earlier students and evaluates 43 Spring 2026 students. Spring has been inspected repeatedly in the supplied project, so call it a reused diagnostic cohort, not an untouched test. The selected model has MAE 2.832, RMSE 4.920 and R-squared 0.817. Grades-only at the same bundle/precision has MAE 2.819 and the training-mean baseline 8.128. Thus there is no demonstrated incremental gain from survey/LMS features on MAE. The largest individual miss is 25.68 points. Plug-in 90% intervals cover 39/43 with mean width 10.02 points. The original empirical past-error interval has the same 39/43 coverage but width 11.74; it does not improve coverage here. Coverage is noisy with 43 cases, calibration shares development folds with selection, and temporal drift invalidates any unconditional guarantee. Later bundles also contain more components of the final grade, so accuracy alone is not proof of early intervention utility.
+I keep the arrows fixed. For each box, the model learns how much weight to give the inputs pointing into it, and how much variation those inputs do not explain.
 
+I start with cautious estimates and update them using earlier students’ inputs and known final results. To predict another student’s result, I use their available inputs while leaving their final result unknown.
 
-SLIDE 6 — Do wellness, motivation and engagement add value?
+The output is a predicted percentage and a range. In this historical example, the estimate was 83.1 percent and the reported range was about 77.2 to 89.0. The student’s final result was 81.0 percent, which I show here only to check the forecast afterward.
 
-The goal is to test incremental predictive value, not to guarantee a positive finding. Choose an actionable prediction date, such as the end of week 4 only if availability can be verified. Compare grades-only with the same grades plus wellness, plus motivation, plus LMS engagement, and the full model. Keep the prediction date, students, modeling family, and tuning budget comparable. Add leave-one-group-out ablations to identify joint contributions when predictors are correlated. All imputation, scaling and tuning must be learned within training terms; evaluation terms must be later than every term used for tuning. For each held-out student, compute baseline absolute error minus extended-model absolute error. Its mean is the MAE reduction, with positive values favoring the added signals. Show this paired difference for every evaluation term, along with pooled and equal-term summaries and uncertainty. Student-level resampling alone does not quantify future-term generalization; six terms give limited evidence about cohort variability. Evaluate predictive distributions using a proper score such as CRPS, and report 90% coverage alongside interval width. For risk detection, predefine a meaningful outcome threshold and coaching capacity before examining results. Early survey features are missing for 78/191 students: compare the same evaluation population, fit missing-data handling only on training data, and treat complete-case results as a selected sensitivity population. Agree on the smallest useful gain before evaluation. A convincing result is a practically meaningful improvement reasonably consistent across later terms and confirmed on a new cohort after freezing the workflow. A null or uncertain result is valid; causal coaching benefit is a separate question.
+A 90 percent range is meant to include the actual result for about nine out of ten similar students. I have to check whether that happens; it is not a guarantee for one student. I adjusted these ranges using earlier prediction errors, but they still depend on simplified assumptions.
 
+Missing surveys also need care. I used typical training values when learning, while allowing unknown inputs to remain uncertain when predicting.
 
-SLIDE 7 — Move from retrospective fit to a defensible early forecast
+Now that I have explained the forecast, I will show how I checked it.
 
-Present the next stage as research, not completed functionality. First choose an actionable prediction date and obtain assessment release dates, grading revisions, instructional calendar and immutable weekly snapshots. Only features available by that date qualify. Then develop a learning-science causal hypothesis graph with domain experts. Prior preparation and section/term context can confound engagement-performance associations; MLC use may act upstream of engagement depending on the estimand; conditioning on voluntary response can introduce selection bias if response is a common effect. These roles require a specified graph and question, not automatic feature removal. For forecasting, evaluate variables by out-of-time incremental value at identical cutoffs; causal identification is a separate task. Next add robust or bounded outcome modeling, term/section partial pooling, explicit missingness modeling and parameter uncertainty integration, with calibration data separate from tuning. The notebook now provides a tested conjugate update building block, not a deployed online learner. Freeze the pipeline before a new cohort and report point error, log score, coverage, interval width and calibration, with careful low-outcome diagnostics. If the platform uses forecasts for coaching, intervention benefit requires a separate prospective study. Ask the professor about the prediction date and minimum evidence needed for a new-cohort validation design.
+SLIDE 4 — I learn from earlier terms and check later students
+
+To check whether this approach can work beyond the students it learned from, I followed the order of the course terms. Within the older terms, I repeatedly learned from earlier classes and checked the next class. That helped me choose how many assessment scores to include and how cautious the model should be.
+
+After making those choices, I used the selected model to learn from 148 students from the first five terms. I then predicted the final percentages of 43 students from Spring 2026, without using their final results to fit that model.
+
+The timeline shows that separation. I also kept the data preparation within the training group, so the later students did not determine the values used to prepare the earlier data.
+
+There is an important limit to this check. Spring 2026 has already been examined during earlier versions of this project. It gives me useful evidence, but I still need a new class that I have not inspected before.
+
+With that testing process explained, I can now show the results and what they do and do not tell me.
+
+SLIDE 5 — The extra inputs have not improved average error yet
+
+The first result is that the forecasts are fairly close on average in this historical check. The average distance between the full model’s prediction and the recorded final percentage was 2.83 percentage points. This is an average error, not a percentage accuracy, and some students had much larger errors.
+
+The comparison tells me something more specific. A simple forecast using the earlier students’ average final grade had an average error of 8.13 points. Using the available assessment scores reduced that error to 2.82. Adding wellness, motivation and online activity gave 2.83, which is almost identical and slightly worse on this measure.
+
+So I have not shown that those additional inputs improve the final-grade prediction. I also cannot conclude that they will never help. The larger assessment set already contains a lot of information about the final result. Some assessment scores are also part of the final grade, so they naturally carry information about it. The survey data are incomplete as well.
+
+The reported ranges included the actual result for 39 of the 43 students, but the largest prediction error was about 25.7 points. Those findings are why I need to examine both the predictions and their uncertainty.
+
+My next step is to test whether the additional inputs help earlier in the course.
+
+SLIDE 6 — Next, I will test the extra inputs earlier
+
+My next experiment will focus on a time when the information could still be useful for student support. I would first choose a prediction date, such as the end of week four, and verify which surveys, activity records and assessment scores were actually available by that date.
+
+I would then predict the same students using the same available grades. I would add wellness alone, motivation alone, and online activity alone, and finally compare a model that includes all of them. I would keep the rest of the comparison consistent so an improvement cannot simply come from using later grades or a different set of students.
+
+I would repeat this process across later terms and check both the average error and the prediction ranges. I would also investigate the 78 students who are missing early survey information, because that may affect the comparison.
+
+Before examining a new class, I would agree on what size of improvement would be useful and keep the chosen model unchanged. If the additional inputs do not help, that is still a valid result.
+
+I would like your feedback on the prediction date and what evidence would make this useful for early student support.
