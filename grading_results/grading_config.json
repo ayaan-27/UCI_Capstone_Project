@@ -1,0 +1,35 @@
+{
+  "main_category_weights": {
+    "Written Mastery I": 0.2,
+    "Written Mastery II": 0.35,
+    "Verbal Mastery I": 0.1,
+    "Verbal Mastery II": 0.1,
+    "Teamwork Mastery": 0.1,
+    "Life-Long Learning Mastery: Growth Mindset": 0.1,
+    "Life-Long Learning Mastery: Resilience & Agency": 0.05
+  },
+  "extra_credit_weights": {
+    "Extra Credit: Surveys": 0.0075,
+    "Extra Credit: Team Manager": 0.0025,
+    "Extra Credit: My Learning Coach": 0.0
+  },
+  "weight_confirmation": "user confirmed same weights for six historical non-summer terms",
+  "applicable_historical_terms": [
+    "2024 FAL",
+    "2025 WTR",
+    "2025 SPR",
+    "2025 FAL",
+    "2026 WTR",
+    "2026 SPR"
+  ],
+  "excluded_terms": [
+    "SMR",
+    "Summer"
+  ],
+  "inventory_course_ids": [
+    "84595"
+  ],
+  "historical_assignment_denominators_verified": false,
+  "historical_grade_release_times_verified": false,
+  "extra_credit_not_renormalized_into_main": true
+}

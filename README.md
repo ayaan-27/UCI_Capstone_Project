@@ -1,63 +1,79 @@
 # My Learning Coach — Bayesian DAG capstone
 
-## Deliverables
-- `MLC_technical_presentation.pptx`: eight editable slides following a plain-language research story, with first-person speaker notes.
-- `MLC_technical_presentation.pdf`: portable presentation copy.
-- `MLC_original_DAG_slide.pptx` / `.pdf`: readable grouped view of the original fitted graph, with speaker notes in `MLC_original_DAG_notes.txt`.
-- `mlc_results/expanded_full_DAG.svg`: complete original graph with all individual nodes and edges, for zooming.
-- `MLC_technical_methods_slide.pptx` / `.pdf`: standalone technical slide with method, implementation and rationale.
-- `MLC_technical_methods_notes.txt`: first-person speaker notes for that slide.
-- `MLC_speaker_notes.txt`: a connected first-person script for speaking to a professor.
-- `MLC_speaker_notes.pdf`: the same script in a readable eight-page rehearsal copy.
-- `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
-- `mlc_results/`: generated tables, provenance, predictions and fitted DAG.
+## Download the current artifacts
 
-## Run the notebook
-Use Python 3.12 and install `requirements.txt` in a virtual environment. Put the original uploaded `Annoymized Data…zip` alongside the notebook, or set `MLC_DATA_ZIP` to its path. Run All. A local `data/` directory is extracted and `mlc_results/` is generated. Original uploads are unchanged. The source archive is not included in this repository. Graphviz is optional; the notebook has a Matplotlib graph fallback. No external API key is needed.
+**[Download the complete public package](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Capstone_Public.zip)**
 
-## What changed
-- Clarified the unit of analysis: 191 unique student-course observations, not thousands of independent students.
-- Added per-term sample/missingness audits, source-archive SHA-256 and runtime versions.
-- Implemented the training-mean baseline that the original notebook mentioned but did not calculate.
-- Retained conjugate CPD posterior quantities without changing original plug-in point predictions.
-- Added exact Student-t outcome-CPD predictions for complete retained evidence, integrating coefficient and variance uncertainty conditional on fixed preprocessing/imputed training inputs. Missing evidence is explicitly rejected by this new interface; original joint-Gaussian marginal inference remains available.
-- Compared exact and plug-in intervals on matching complete-case subsets: full model n=29, grades-only n=43. These are diagnostics, not a new selected model or a full Bayesian missing-data solution.
-- Added and verified a conjugate sequential-update function with preprocessing frozen; this is a tested building block, not a deployed online learner.
-- Kept original diagnostic/selection separation and clarified unverifiable historical timing.
+| Current deliverable | Download |
+|---|---|
+| Consolidated presentation — 16 main slides + 3 appendix slides | [Editable PowerPoint](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Presentation.pptx) · [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Presentation.pdf) |
+| Integrated research report | [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Report.pdf) · [Markdown](deliverables/MLC_Consolidated_Report.md) |
+| First-person speaker notes | [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Speaker_Notes.pdf) · [Markdown](deliverables/MLC_Speaker_Notes.md) |
+| Validation | [14-test log](deliverables/Validation_Log.txt) · [Summary](deliverables/Validation.json) |
 
-## Reproduced main evidence
-Three earlier-term development folds select Block B, coefficient precision 10 (macro MAE 3.0868). Final training n=148; reused Spring 2026 evaluation n=43. Full-model MAE 2.8322 points, RMSE 4.9203, R² 0.8175. Same-bundle/precision grades-only MAE 2.8190; train-mean MAE 8.1282. Plug-in 90% intervals cover 39/43 with mean width 10.0209. Past-error calibration also covers 39/43 and has width 11.7424. This does not demonstrate survey/LMS incremental MAE improvement or independent prospective validation.
+Open a file on GitHub and use **Download raw file** near the top-right of the viewer, or use these direct links. **Code → Download ZIP** downloads the repository. After unzipping the public package, start with `00_START_HERE.md` or `INDEX.html`.
 
-## Boundaries
-Release timestamps and historical score snapshots are absent. The first-four-week survey/LMS features do not make Block A/B verified week-4 forecasts. Calendar starts are assumptions to verify. Current fitted DAG has no explicit MLC exposure/use, latent prior ability, section effects or term hierarchy. Training missingness is median-imputed; Gaussian support is unbounded, and clipping is only a reporting projection. Letter-grade accuracy uses illustrative thresholds rather than official recorded grade labels. No causal or coaching-effectiveness claim is supported.
+## Current findings
 
-The repository contains the reviewed presentation, executed notebook and generated research results. Raw source exports and the uploaded data archive are excluded; supply the original archive locally to rerun the workflow.
+- **191 students, six non-summer terms.** SMR/Summer courses and summer-labelled predictor fields are excluded.
+- With the larger grade bundle, all numeric non-grade sources increase four-term macro MAE from **2.9485 to 3.0364** points.
+- Without grades, LMS alone improves macro MAE from **6.5377 to 6.3607**, improving all four evaluation terms. EVC/wellness additions do not demonstrate a stable benefit beyond grades in this model.
+- Coefficient posteriors describe uncertain **conditional associations**, not causal effects. Gibbs MCMC agrees with the exact conjugate solution; more sampling does not establish predictive usefulness.
+- Newly supplied RETRO is **free text**, separate from early numerical EVC. Week 2/4 text has mixed gains across only two evaluation terms and does not consistently beat response-pattern measures in the larger-grade scenario.
+- Tested robust and tree alternatives do not beat the simple larger-grade Bayesian/Ridge baseline.
+- Confirmed main category weights sum to **100%**, with up to **1 extra-credit percentage point** kept separate. Remaining-work accounting is implemented/tested; actual historical remaining-work outcomes and models are not fitted.
 
-## Quick start
+These are explored retrospective comparisons with unverified grade-release timing, not independent prospective confirmation or evidence of coaching effectiveness. Numeric and RETRO experiments use different training windows; their MAEs should not be conflated.
+
+## Project structure
+
+| Path | Purpose |
+|---|---|
+| `deliverables/` | Current presentation, report, notes and downloadable public ZIP |
+| `posterior_study/` | Statistical models, Gibbs diagnostics, RETRO/text comparison, weight audit, summer policy and packaging |
+| `tests/` | 14 statistical and data-integrity tests |
+| `posterior_results/` | Four-term ablations, posterior summaries, risks, diagnostics, sensitivities and figures |
+| `retro_followup_results/` | RETRO audits, two-term text comparisons and candidate-model benchmarks |
+| `grading_results/` | Confirmed weights, assignment inventory and historical mapping audit |
+| `mlc_results/` | Original processed input, fixed DAG and earlier executed-study outputs |
+| `diagrams/` | Complete original DAG and explicitly labelled temporal proposal |
+| `docs/` | Earlier workspace guide for historical context |
+
+Original presentations remain in the repository root for traceability. The files in `deliverables/` are the current combined account.
+
+## Notebook order
+
+1. `MLC_Bayesian_DAG_updated.ipynb` — original stored execution, extraction and fixed DAG. A raw rerun requires the missing original source ZIP.
+2. `MLC_Posterior_Predictive_Value.ipynb` — executed posterior simulation, actual Gibbs sampling and source comparisons using included processed data.
+3. `MLC_RETRO_Followup.ipynb` — executed display of RETRO and model-benchmark results.
+4. `MLC_Weights_SMR_Audit.ipynb` — executed grading/summer audit and a labelled hypothetical arithmetic example.
+
+## Install and reproduce
+
+Use Python 3.12; the completed study used 3.12.14. Keep the existing isolated checkout in cloud tasks; no worktree is needed unless explicitly requested.
 
 ```bash
 python3.12 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r requirements.txt
+.venv/bin/python -m pip install -r requirements.txt
+bash run_available_studies.sh
 ```
 
-Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual environment, and run all cells. Keep the original data ZIP locally; `data/`, source ZIPs and virtual environments are ignored by Git.
+The runner executes the numeric study and all 14 tests. It skips RETRO/workbook recomputation with a clear message when the user-provided source files are absent; existing derived results remain available. To recompute those stages locally, provide `data/retro_uploaded.csv` and `data/assignment_weights_uploaded.xlsx`, or pass your paths directly:
 
-## Presentation flow
+```bash
+.venv/bin/python -m posterior_study.retro_followup --retro-csv /path/to/retro.csv
+.venv/bin/python -m posterior_study.grading_weights --weights-xlsx /path/to/weights.xlsx
+```
 
-1. What a Bayesian DAG is: a map of assumed relationships, learned from data.
-2. Which student records fill the map.
-3. The original graph: 23 variables and 62 arrows, with the 16 assessment nodes grouped for readability.
-4. How the model learns and makes a forecast, with a real historical example.
-5. The technical methods: fixed linear Gaussian graph, Normal–Inverse-Gamma shrinkage, joint Gaussian conditioning, marginalization of missing prediction inputs, and mean/interval reporting.
-6. How earlier terms are used to check predictions for later students.
-7. What the results show, including the grades-only comparison and uncertainty.
-8. How to test whether surveys and online activity help at an earlier date.
+Optional public-artifact rebuild:
 
-The graph slide is checked against `fitted_DAG_parents.json`: eight arrows among the six survey/LMS inputs, expectancy and log page views as parents of each of sixteen assessment nodes (32 arrows), and all 22 inputs as parents of final percentage. Grouping is purely visual; it does not replace the sixteen observed scores with one score or a latent variable. Source labels `expectancy`, `value`, and `cost_support` are explained as confidence, course value, and support/barriers. The activity inputs are transformed LMS counts, not MLC use.
+```bash
+.venv/bin/python -m pip install -r posterior_study/requirements-presentation.txt
+.venv/bin/python -m posterior_study.prepare_publication --output /path/to/new/public-package
+```
 
-The technical slide distinguishes median-filled training inputs from missing-evidence marginalization at prediction time, and marks the main intervals as using fitted parameters rather than fully integrating parameter uncertainty. The notes are connected first-person speech. All numerical results come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. Arrows are assumed conditional relationships, not established causal effects or proof of incremental predictive value. The final experiment is proposed work, not a new result.
+No API key is required. Graphviz is optional for the original notebook. Inputs and environment directories are ignored by Git. Do not print or commit credentials.
 
-## Evaluation with the available data
+## Included results and omitted source files
 
-The presentation plans four earlier-to-later checks using the existing six terms; collecting a new class is not a project requirement. Spring 2026 was excluded from fitting but its results have already been reviewed, so repeated revisions checked against it are not independent confirmation. The results table distinguishes prediction errors from student marks: predicting the earlier-student mean (79.92%) for everyone gives MAE 8.13 points, while individualized assessment-based predictions give MAE 2.82 points. Verifying score release dates determines whether an earlier forecast could actually have used those marks.
+The uploaded RETRO response CSV, original workbook, pasted chat/context and environment/credential files are **not published**. The existing anonymized processed table and derived numerical findings are included. The original historical grade/source ZIP, effective historical denominators and score-release/revision history remain unavailable. Their absence prevents a newly verified historical early/remaining-work forecasting study; it does not invalidate the documented retrospective computations.

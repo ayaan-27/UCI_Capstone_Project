@@ -1,0 +1,89 @@
+> Historical workspace guide. The repository README and deliverables/ contain the current public account. Earlier file-availability statements are superseded.
+
+# My Learning Coach — Bayesian DAG capstone
+
+## Deliverables
+- `MLC_technical_presentation.pptx`: eight editable slides following a plain-language research story, with first-person speaker notes.
+- `MLC_technical_presentation.pdf`: portable presentation copy.
+- `MLC_original_DAG_slide.pptx` / `.pdf`: readable grouped view of the original fitted graph, with speaker notes in `MLC_original_DAG_notes.txt`.
+- `mlc_results/expanded_full_DAG.svg`: complete original graph with all individual nodes and edges, for zooming.
+- `MLC_technical_methods_slide.pptx` / `.pdf`: standalone technical slide with method, implementation and rationale.
+- `MLC_technical_methods_notes.txt`: first-person speaker notes for that slide.
+- `MLC_speaker_notes.txt`: a connected first-person script for speaking to a professor.
+- `MLC_speaker_notes.pdf`: the same script in a readable eight-page rehearsal copy.
+- `MLC_Bayesian_DAG_updated.ipynb`: rerun original study plus audited additions.
+- `mlc_results/`: generated tables, provenance, predictions and fitted DAG.
+
+## Run the notebook
+Use Python 3.12 and install `requirements.txt` in a virtual environment. Put the original uploaded `Annoymized Data…zip` alongside the notebook, or set `MLC_DATA_ZIP` to its path. Run All. A local `data/` directory is extracted and `mlc_results/` is generated. Original uploads are unchanged. The source archive is not included in this repository. Graphviz is optional; the notebook has a Matplotlib graph fallback. No external API key is needed.
+
+## What changed
+- Clarified the unit of analysis: 191 unique student-course observations, not thousands of independent students.
+- Added per-term sample/missingness audits, source-archive SHA-256 and runtime versions.
+- Implemented the training-mean baseline that the original notebook mentioned but did not calculate.
+- Retained conjugate CPD posterior quantities without changing original plug-in point predictions.
+- Added exact Student-t outcome-CPD predictions for complete retained evidence, integrating coefficient and variance uncertainty conditional on fixed preprocessing/imputed training inputs. Missing evidence is explicitly rejected by this new interface; original joint-Gaussian marginal inference remains available.
+- Compared exact and plug-in intervals on matching complete-case subsets: full model n=29, grades-only n=43. These are diagnostics, not a new selected model or a full Bayesian missing-data solution.
+- Added and verified a conjugate sequential-update function with preprocessing frozen; this is a tested building block, not a deployed online learner.
+- Kept original diagnostic/selection separation and clarified unverifiable historical timing.
+
+## Reproduced main evidence
+Three earlier-term development folds select Block B, coefficient precision 10 (macro MAE 3.0868). Final training n=148; reused Spring 2026 evaluation n=43. Full-model MAE 2.8322 points, RMSE 4.9203, R² 0.8175. Same-bundle/precision grades-only MAE 2.8190; train-mean MAE 8.1282. Plug-in 90% intervals cover 39/43 with mean width 10.0209. Past-error calibration also covers 39/43 and has width 11.7424. This does not demonstrate survey/LMS incremental MAE improvement or independent prospective validation.
+
+## Boundaries
+Release timestamps and historical score snapshots are absent. The first-four-week survey/LMS features do not make Block A/B verified week-4 forecasts. Calendar starts are assumptions to verify. Current fitted DAG has no explicit MLC exposure/use, latent prior ability, section effects or term hierarchy. Training missingness is median-imputed; Gaussian support is unbounded, and clipping is only a reporting projection. Letter-grade accuracy uses illustrative thresholds rather than official recorded grade labels. No causal or coaching-effectiveness claim is supported.
+
+The repository contains the reviewed presentation, executed notebook and generated research results. Raw source exports and the uploaded data archive are excluded; supply the original archive locally to rerun the workflow.
+
+## Quick start
+
+```bash
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
+
+Open `MLC_Bayesian_DAG_updated.ipynb` in a notebook editor, select the virtual environment, and run all cells. Keep the original data ZIP locally; `data/`, source ZIPs and virtual environments are ignored by Git.
+
+## Presentation flow
+
+1. What a Bayesian DAG is: a map of assumed relationships, learned from data.
+2. Which student records fill the map.
+3. The original graph: 23 variables and 62 arrows, with the 16 assessment nodes grouped for readability.
+4. How the model learns and makes a forecast, with a real historical example.
+5. The technical methods: fixed linear Gaussian graph, Normal–Inverse-Gamma shrinkage, joint Gaussian conditioning, marginalization of missing prediction inputs, and mean/interval reporting.
+6. How earlier terms are used to check predictions for later students.
+7. What the results show, including the grades-only comparison and uncertainty.
+8. How to test whether surveys and online activity help at an earlier date.
+
+The graph slide is checked against `fitted_DAG_parents.json`: eight arrows among the six survey/LMS inputs, expectancy and log page views as parents of each of sixteen assessment nodes (32 arrows), and all 22 inputs as parents of final percentage. Grouping is purely visual; it does not replace the sixteen observed scores with one score or a latent variable. Source labels `expectancy`, `value`, and `cost_support` are explained as confidence, course value, and support/barriers. The activity inputs are transformed LMS counts, not MLC use.
+
+The technical slide distinguishes median-filled training inputs from missing-evidence marginalization at prediction time, and marks the main intervals as using fitted parameters rather than fully integrating parameter uncertainty. The notes are connected first-person speech. All numerical results come from the executed notebook; the prediction model and notebook were not changed for this presentation revision. Arrows are assumed conditional relationships, not established causal effects or proof of incremental predictive value. The final experiment is proposed work, not a new result.
+
+## Evaluation with the available data
+
+The presentation plans four earlier-to-later checks using the existing six terms; collecting a new class is not a project requirement. Spring 2026 was excluded from fitting but its results have already been reviewed, so repeated revisions checked against it are not independent confirmation. The results table distinguishes prediction errors from student marks: predicting the earlier-student mean (79.92%) for everyone gives MAE 8.13 points, while individualized assessment-based predictions give MAE 2.82 points. Verifying score release dates determines whether an earlier forecast could actually have used those marks.
+
+## Posterior simulation and source-value update
+
+See [POSTERIOR_STUDY.md](POSTERIOR_STUDY.md) for the executed exploratory study and independent diagnosis.
+
+- `MLC_Posterior_Predictive_Value.ipynb`: executed companion notebook; runs from the included processed table.
+- `posterior_study/analysis.py`: exact posterior simulation, actual Gibbs MCMC with diagnostics, outcome probabilities, and same-student temporal source ablations.
+- `posterior_results/`: new results, sensitivity checks, provenance and figures.
+- `updated_presentation/`: editable PowerPoint, matching PDF, and first-person speaker notes.
+- `tests/test_posterior_study.py`: statistical validation against the original CPD and analytic posterior.
+
+Run `python -m posterior_study.analysis` in the existing virtual environment. The original notebook and results are preserved. All-source additions do not improve Block B macro MAE; LMS alone gives a modest no-grades gain. These are exploratory retrospective findings. The separate MLC RETRO export and raw ZIP were unavailable and are not newly analyzed.
+
+## Newly supplied RETRO follow-up
+
+[RETRO_FOLLOWUP.md](RETRO_FOLLOWUP.md) incorporates the later upload: free-text reflections from three terms. It supersedes the earlier report's unavailable-RETRO statement, while preserving the earlier numerical results. `MLC_RETRO_Followup.ipynb` displays the executed results; `posterior_study/retro_followup.py` reruns the audit, text comparisons and numeric model benchmarks. The source CSV is kept in ignored `data/retro_uploaded.csv` and is not included in code archives. Pass your local CSV path with `--retro-csv`.
+
+`updated_presentation/MLC_RETRO_followup.pptx` and `.pdf` provide a five-slide addendum. The text comparison has two evaluation terms, mixed gains and no demonstrated independent content benefit beyond response measures in the larger-grade scenario. The numeric model benchmark does not beat the simple grade-based Bayesian/Ridge baseline. See the report for conditional factor sizes and proposed DAG improvements; no causal effects are established.
+
+## Confirmed weights and summer exclusion
+
+[WEIGHTS_AND_SMR.md](WEIGHTS_AND_SMR.md) records the uploaded grading workbook, the user-confirmed common category weights for all six historical terms, and the explicit summer/SMR exclusion. `grading_results/grading_config.json` separates the 100% main weights from 1% extra credit. `posterior_study/grading_weights.py` audits the inventory and implements fixed-rule remaining-work accounting from effective assignment catalogs and real historical score snapshots. `MLC_Weights_SMR_Audit.ipynb` is executed, with a clearly labelled arithmetic example.
+
+The 191 analyzed students were already non-summer, and all 168 SMR-labelled legacy aggregate fields were already excluded from predictors. Main/RETRO results were rerun and are unchanged. Historical assignment denominators and release/revision snapshots are still needed before fitting actual remaining-work outcomes. The current RETRO presentation addendum includes two additional weight/SMR slides when `grading_results/` is present.

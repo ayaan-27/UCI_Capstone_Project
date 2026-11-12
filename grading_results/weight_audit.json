@@ -1,0 +1,48 @@
+{
+  "source_url": "https://canvas.eee.uci.edu/courses/84595/assignments",
+  "course_ids": [
+    "84595"
+  ],
+  "sha256": "c75c8b6030def5d0c27587c70c38e95830bf99db24c68fa132cab75aca6357e4",
+  "excluded_summer_inventory_rows": [],
+  "main_weight_sum": 1.0,
+  "extra_credit_weight_sum": 0.01,
+  "category_scope": "same category weights confirmed by user for six non-summer historical terms",
+  "confirmed_historical_terms": [
+    "2024 FAL",
+    "2025 WTR",
+    "2025 SPR",
+    "2025 FAL",
+    "2026 WTR",
+    "2026 SPR"
+  ],
+  "assignment_scope": "inventory/dates for course 84595 only; historical denominators/versions unverified",
+  "due_dates_are_release_dates": false,
+  "summer_policy": "exclude summer/SMR courses and summer-tagged categories/fields",
+  "current_cohort_audit": {
+    "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+    "metadata_fields": [
+      "cohort"
+    ],
+    "input_rows": 191,
+    "excluded_summer_rows": 0,
+    "retained_rows": 191,
+    "excluded_labels": {}
+  },
+  "summer_labelled_manifest_rows": 168,
+  "summer_labelled_predictors_used": 0,
+  "retained_cohort_counts": {
+    "2024 FAL": 18,
+    "2025 FAL": 20,
+    "2025 SPR": 43,
+    "2025 WTR": 27,
+    "2026 SPR": 43,
+    "2026 WTR": 40
+  },
+  "historical_mapping_status_counts": {
+    "title/points match; historical category denominator still unverified": 116,
+    "no exact title match": 12,
+    "matched item is unpublished in 84595": 6,
+    "point maximum differs": 4
+  }
+}

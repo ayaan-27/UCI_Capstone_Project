@@ -1,0 +1,64 @@
+{
+  "seed": 271828,
+  "python": "3.12.14",
+  "cohort_policy": {
+    "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+    "metadata_fields": [
+      "cohort"
+    ],
+    "input_rows": 191,
+    "excluded_summer_rows": 0,
+    "retained_rows": 191,
+    "excluded_labels": {}
+  },
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8"
+  },
+  "input_sha256": "7df7dcfc75aaf5d07571bfddc95d01db6c0d299e3c26ad42a6835ef9e9ff0fcb",
+  "input": "existing processed table; original raw ZIP and MLC RETRO unavailable",
+  "outcome": "percentage",
+  "precision": 10,
+  "prior_IG_shape": 2,
+  "prior_IG_scale": 1,
+  "intercept_precision": 0.001,
+  "practical_MAE_gain": 0.5,
+  "illustrative_risk_threshold": 70.0,
+  "validation": "4 expanding-window terms, 146 predictions per model; historically explored data/settings",
+  "preprocessing": "training-only median imputation and scaling; imputation uncertainty excluded",
+  "simulation_checks": {
+    "mean_abs_risk_MC_error": 0.0001542832660273291,
+    "max_abs_risk_MC_error": 0.0022802585438955678,
+    "draws": 20000,
+    "max_Rhat": 1.0007430767614252,
+    "min_bulk_ESS": 12194.234321545597,
+    "min_tail_ESS": 14735.091096685057,
+    "max_mean_error_in_MCSE": 2.0030648375828513,
+    "max_CI_error_in_posterior_scale": 0.040448292743825165
+  },
+  "posterior_predictive_checks": {
+    "sd": {
+      "observed": 7.8147909070627275,
+      "replicated_lower95": 7.183267233725614,
+      "replicated_upper95": 8.505153598270038,
+      "posterior_predictive_tail": 0.52045
+    },
+    "min": {
+      "observed": 50.2,
+      "replicated_lower95": 45.2166727335329,
+      "replicated_upper95": 57.49636092423777,
+      "posterior_predictive_tail": 0.67965
+    },
+    "n_below70": {
+      "observed": 19.0,
+      "replicated_lower95": 11.0,
+      "replicated_upper95": 21.0,
+      "posterior_predictive_tail": 0.1723
+    },
+    "unbounded_support": {
+      "fraction_draws_outside_0_100": 0.00038648648648648647
+    }
+  }
+}

@@ -1,0 +1,29 @@
+# RETRO follow-up speaker notes
+
+## 1. We estimated associations, not causal effects
+
+Professor, we can now quantify conditional associations and test prediction improvements, but these are not causal effects. Wellness has a mean association of about plus 0.20 points per training standard deviation, with an interval from minus 0.39 to plus 0.78. All of the displayed intervals include zero. These estimates hold grades and the other inputs fixed, depend on the shrinkage prior and imputation, and are not effects per one questionnaire rating point. Conditioning on grades may also block some pathways through which early motivation relates to the final result. A posterior sign probability cannot by itself establish either a causal effect or improved forecasting.
+
+## 2. The uploaded RETRO is a distinct text source
+
+I have now incorporated the newly supplied RETRO export. It contains open reflections about what went well, what did not go well, and what could improve motivation and engagement. This is different from the numerical early EVC features already in the original model. All IDs match the existing grade table. I restrict the initial comparison to Week 2 and Week 4 responses, giving 68 early respondents across the three covered terms. There are no exact submission timestamps, so I cannot yet claim verified end-of-week-four availability. Later weeks are deliberately excluded. Two later-term evaluations are possible, with only 20 then 60 training students. That is a very small basis for learning from text.
+
+## 3. RETRO content has not shown a consistent gain
+
+I compare grades alone with grades plus response measures, and then grades plus words and the same response measures. The response measures include whether a student responded, how often and how much they wrote. The text model improves error by about 0.31 points in Winter but worsens it by 0.04 in Spring. Across these two terms, response measures alone improve more than words plus response measures. The words therefore do not show a consistent added benefit in this scenario. This does not mean the reflections are uninformative: a small TF-IDF model and two terms are limited. It means I cannot yet give a reliable numerical effect for RETRO as a factor. These results use different training windows from the previous four-term analysis.
+
+## 4. A bigger model did not improve the grade-based forecast
+
+I tested robust regression and two restrained tree methods rather than assuming they would improve on the Bayesian model. The larger-grade Bayesian and Ridge baseline has average error 2.95 points. Huber gives 3.45, ExtraTrees 4.27 and histogram boosting 4.32. The Bayesian model and Ridge have the same point predictions under the same penalty; they are not independent discoveries. Some alternatives slightly help the full no-grades model, but the previous LMS-only Bayesian model is still a stronger simple comparison. These are explored fixed-setting benchmarks, not exhaustive tuning or a claim of the best possible model. The point-error comparison does not establish superior calibration for the alternatives.
+
+## 5. Improve temporal structure and measurement first
+
+I would improve the DAG by fixing one forecast time, then unrolling feedback through time. A mark can change a later motivation rating or reflection, and these may help predict subsequent activity and future marks. I would not automatically treat a reflection as the cause of a difficulty it describes. A cleaner target may be performance on remaining coursework, combined with already earned marks using known weights. I would validate survey scoring and human-coded RETRO themes, account for observed prior preparation and term context, and examine response selection. A regularized hierarchical Bayesian model with robust residuals is a reasonable candidate after longitudinal inputs are available, but is not fitted here and may not improve accuracy. These six terms still support an honest exploratory capstone.
+
+## 6. Confirmed category weights: 100% main grade
+
+The supplied workbook resolves the category-weight question. Written Mastery I is 20 percent, Written Mastery II is 35 percent, both verbal categories are 10 percent, teamwork is 10 percent, growth mindset is 10 percent, and resilience and agency are 5 percent. The main grade totals 100 percent. Surveys and team-manager extra credit can add 0.75 and 0.25 points respectively; the MLC extra-credit group has zero weight here. I do not renormalize all weights to 101 percent. These are grading rules, not estimated effects of wellness or motivation. The workbook contains published and unpublished versions, so I still need each historical term’s effective assignment denominator rather than transferring current inventory totals.
+
+## 7. Separate earned marks from remaining performance
+
+The improved target separates already earned grade points from uncertain future performance. A final total equals the known contribution plus remaining course weight times the remaining main-work percentage, plus extra credit. This accounting is now implemented and tested with actual availability cutoffs, with summer courses excluded. The current data already contain 191 non-summer students and none is removed. The old manifest has 168 SMR-labelled aggregate entries, but none was used as a predictor. No previous numerical result changes just because the exclusion is explicit. To fit a real remaining-work model I still need the complete historical grade exports and effective assignment catalogs, including extra credit and release or revision snapshots. The supplied workbook has Fall 2026 due dates; deadlines are not historical grade-release timestamps.

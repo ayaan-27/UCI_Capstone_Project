@@ -1,0 +1,11 @@
+category,weight,catalog_points_all,assignment_count,is_extra_credit,source_row,catalog_points_published,published_assignment_count
+Written Mastery I,0.2,144.0,3,False,8,144.0,3
+Written Mastery II,0.35,128.0,2,False,9,128.0,2
+Verbal Mastery I,0.1,183.0,6,False,10,119.0,5
+Verbal Mastery II,0.1,164.0,2,False,11,100.0,1
+Teamwork Mastery,0.1,262.0,22,False,12,246.0,18
+Life-Long Learning Mastery: Growth Mindset,0.1,362.0,25,False,13,362.0,25
+Life-Long Learning Mastery: Resilience & Agency,0.05,200.0,60,False,14,200.0,60
+Extra Credit: Surveys,0.0075,75.0,3,True,15,75.0,3
+Extra Credit: Team Manager,0.0025,25.0,1,True,16,25.0,1
+Extra Credit: My Learning Coach,0.0,6.0,2,True,17,0.0,0

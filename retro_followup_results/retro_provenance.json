@@ -1,0 +1,46 @@
+{
+  "base_summer_exclusion": {
+    "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+    "metadata_fields": [
+      "cohort"
+    ],
+    "input_rows": 191,
+    "excluded_summer_rows": 0,
+    "retained_rows": 191,
+    "excluded_labels": {}
+  },
+  "retro_summer_exclusion": {
+    "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+    "metadata_fields": [
+      "cohort",
+      "course_name",
+      "term"
+    ],
+    "input_rows": 870,
+    "excluded_summer_rows": 0,
+    "retained_rows": 870,
+    "excluded_labels": {}
+  },
+  "retro_sha256": "db54e9a7bd99092843469997be746de5f47fa85bb949e3910c0fc48faff5e8f9",
+  "rows": 870,
+  "unique_respondents": 74,
+  "matched_rows": 870,
+  "early_respondents": 68,
+  "week_limit": 4,
+  "timestamps_available": false,
+  "retro_terms": [
+    "2025 FAL",
+    "2026 WTR",
+    "2026 SPR"
+  ],
+  "retro_evaluation_terms": [
+    "2026 WTR",
+    "2026 SPR"
+  ],
+  "retrofit": "week labels only; 6/8/10 excluded; not verified early availability",
+  "numeric_benchmark": "fixed candidate settings; 4 explored temporal terms; no winner independently confirmed",
+  "text_representation": "three separate train-only TFIDF channels, <=200 features each, min document frequency 2, unigrams/bigrams; response counts included",
+  "alpha": "1,10,100 sensitivity; no choice claimed as unbiased winner",
+  "counts": "120 numeric fits; 108 text/comparator fits",
+  "seed": 271828
+}

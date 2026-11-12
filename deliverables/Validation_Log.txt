@@ -1,0 +1,19 @@
+test_category_weighting_is_not_global_points_and_future_scores_do_not_leak (test_grading_weights.GradingTests.test_category_weighting_is_not_global_points_and_future_scores_do_not_leak) ... ok
+test_later_blank_revokes_a_previously_known_grade (test_grading_weights.GradingTests.test_later_blank_revokes_a_previously_known_grade) ... ok
+test_remaining_target_roundtrip_keeps_extra_credit_separate (test_grading_weights.GradingTests.test_remaining_target_roundtrip_keeps_extra_credit_separate) ... ok
+test_summer_metadata_and_fields_excluded_without_reading_free_text (test_grading_weights.GradingTests.test_summer_metadata_and_fields_excluded_without_reading_free_text) ... ok
+test_summer_retro_course_skipped_before_unknown_course_validation (test_grading_weights.GradingTests.test_summer_retro_course_skipped_before_unknown_course_validation) ... ok
+test_unverified_time_and_incomplete_category_roster_rejected (test_grading_weights.GradingTests.test_unverified_time_and_incomplete_category_roster_rejected) ... ok
+test_diagnostics_detect_nonconvergence (test_posterior_study.PosteriorTests.test_diagnostics_detect_nonconvergence) ... ok
+test_independent_draws_match_analytic_posterior_and_student_t (test_posterior_study.PosteriorTests.test_independent_draws_match_analytic_posterior_and_student_t) ... ok
+test_original_cpd_agrees_for_complete_evidence (test_posterior_study.PosteriorTests.test_original_cpd_agrees_for_complete_evidence) ... ok
+test_validation_extremes_do_not_change_training_preprocessing (test_posterior_study.PosteriorTests.test_validation_extremes_do_not_change_training_preprocessing) ... ok
+test_benchmark_reproduces_prior_bayesian_predictions (test_retro_followup.RetroTests.test_benchmark_reproduces_prior_bayesian_predictions) ... ok
+test_duplicate_and_unmatched_rows_are_rejected (test_retro_followup.RetroTests.test_duplicate_and_unmatched_rows_are_rejected) ... ok
+test_late_text_cannot_enter_early_features_and_nonrespondents_preserved (test_retro_followup.RetroTests.test_late_text_cannot_enter_early_features_and_nonrespondents_preserved) ... ok
+test_text_vocabulary_never_fits_evaluation_words (test_retro_followup.RetroTests.test_text_vocabulary_never_fits_evaluation_words) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.271s
+
+OK

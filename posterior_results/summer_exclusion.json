@@ -1,0 +1,10 @@
+{
+  "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+  "metadata_fields": [
+    "cohort"
+  ],
+  "input_rows": 191,
+  "excluded_summer_rows": 0,
+  "retained_rows": 191,
+  "excluded_labels": {}
+}

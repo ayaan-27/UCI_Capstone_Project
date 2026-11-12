@@ -1,0 +1,18 @@
+{
+  "tests_executed": 14,
+  "tests_passed": 14,
+  "test_exit_code": 0,
+  "test_working_directory": "03_Project",
+  "uploaded_inputs_included": false,
+  "pasted_chat_included": false,
+  "environment_or_credential_files_included": false,
+  "notebooks": {
+    "MLC_RETRO_Followup.ipynb": "saved execution preserved and structure validated",
+    "MLC_Weights_SMR_Audit.ipynb": "saved execution preserved and structure validated",
+    "MLC_Posterior_Predictive_Value.ipynb": "saved execution preserved and structure validated",
+    "MLC_Bayesian_DAG_updated.ipynb": "saved execution preserved and structure validated"
+  },
+  "consolidated_slides": 19,
+  "original_raw_workflow_rerun": false,
+  "remaining_work_model_fitted": false
+}
