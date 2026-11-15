@@ -7,7 +7,7 @@ These files can be downloaded directly from GitHub:
 | Complete public package: slides, report, notebooks, code, tests and derived results | [ZIP](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Capstone_Public.zip) |
 | Editable presentation — 19 slides | [PowerPoint](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Presentation.pptx) |
 | Presentation PDF | [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Presentation.pdf) |
-| MCMC evaluation presentation — 12 slides, with embedded speaker notes | [PowerPoint](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_MCMC_and_Posterior_Sampling.pptx) · [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_MCMC_and_Posterior_Sampling.pdf) |
+| MCMC evaluation presentation — 6 slides, with embedded speaker notes | [PowerPoint](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_MCMC_and_Posterior_Sampling.pptx) · [PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_MCMC_and_Posterior_Sampling.pdf) |
 | MCMC presentation rehearsal notes | [Notes PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_MCMC_and_Posterior_Speaker_Notes.pdf) |
 | Integrated research report | [Report PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Consolidated_Report.pdf) |
 | First-person rehearsal notes | [Notes PDF](https://github.com/ayaan-27/UCI_Capstone_Project/raw/refs/heads/main/deliverables/MLC_Speaker_Notes.pdf) |
