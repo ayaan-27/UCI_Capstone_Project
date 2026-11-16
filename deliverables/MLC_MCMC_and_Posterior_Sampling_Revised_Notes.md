@@ -1,6 +1,6 @@
-# Speaker notes for the uploaded six-slide presentation
+# Speaker notes for the six-slide fixed-graph presentation
 
-Only the speaker notes were revised. The visible slides match the uploaded fixed-graph version. Read the main paragraphs aloud; presenter reminders and sources are reference material.
+Slide 3 now compares Gibbs sampling with the exact posterior for all six non-grade inputs. Summary diagnostics cover all 24 sampled parameters. Other slide content and scripts are unchanged. Read the main paragraphs aloud; reminders and sources are reference material.
 
 ## Slide 1: Why use MCMC to evaluate a Bayesian DAG?
 
@@ -30,19 +30,21 @@ Each chain discarded 1,000 warm-up updates and retained 4,000 samples. The separ
 Source
 posterior_study/analysis.py: PosteriorRegression.sample, gibbs and run.
 
-## Slide 3: The sampler matched the exact posterior
+## Slide 3: Gibbs and exact results agree across six inputs
 
-Read the horizontal axis as possible values of the LMS page-view weight. The blue bars show how often the sampler visited nearby values: taller bars mean those values appeared more often. The green line is the distribution calculated from the exact formula. The bars follow the line closely, which is what we wanted to see.
+Each small chart shows one of our six non-grade inputs. The horizontal axis is its possible weight, in grade points for a one-standard-deviation increase in that input. A standard deviation is one typical spread in the training values. Taller blue bars mean nearby weights appeared more often in the Gibbs samples. The green curve is the exact posterior for the same weight.
 
-The numbers on the right check the sampling runs more broadly. R-hat compares the runs; values close to one suggest they are behaving similarly. Our largest value was 1.0007. Effective sample size accounts for consecutive draws being similar, rather than fully independent. We had at least 12,194 samples’ worth of independent information.
+Across all six charts, the blue bars closely follow the green curves. So the sampling agreement was not limited to page views.
 
-Together, these checks support the calculation within this fitted model. We still need separate evidence about what the inputs tell us and how well the model predicts.
+The card on the right summarizes all 24 parameters, including the assessment weights, intercept and noise variance. R-hat compares the separate runs; the largest value was 1.0007, close to the desired value of one. There were at least 12,194 effective samples, after accounting for similarities between consecutive draws.
+
+This checks the numerical method. It does not mean that every input is useful or causal. Next, we look at what the estimated weights actually tell us.
 
 Presenter reminder — not part of the spoken script
-The plotted weight is expressed in final-grade points per one training-data standard deviation of log page views, holding other inputs fixed. Bar height is a density, not an edge probability or a percentage of accurate forecasts. The green curve is the exact posterior for the same model. Diagnostics support, but do not prove, convergence.
+The six panels show marginal coefficient posteriors from one joint regression, not six separate regressions. Recorded grades and the other inputs are held fixed. Coefficients use training-data standard deviations; LMS variables are log-transformed. Dashed zero is a reference for no conditional association. All 24 parameters were sampled; only the six non-grade weights are plotted. The reported R-hat maximum and bulk ESS minimum are across all 24 parameters. None of these distributions is an edge-inclusion probability.
 
 Source
-posterior_results/mcmc_diagnostics.csv; posterior_results/provenance.json; original Gibbs implementation.
+posterior_study/analysis.py: gibbs; posterior_results/mcmc_diagnostics.csv and coefficient_posteriors.csv. The original 16,000 Gibbs draws were regenerated with the same seed and matched to stored parameter means.
 
 ## Slide 4: Non-grade associations were small and uncertain
 
