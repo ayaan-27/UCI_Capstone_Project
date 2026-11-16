@@ -1,0 +1,183 @@
+{
+  "input_sha256": "7df7dcfc75aaf5d07571bfddc95d01db6c0d299e3c26ad42a6835ef9e9ff0fcb",
+  "variables": [
+    "log_page_views",
+    "log_lms_participations",
+    "cost_support",
+    "expectancy",
+    "value",
+    "wellness",
+    "percentage"
+  ],
+  "labels": [
+    "LMS page views",
+    "LMS participation",
+    "EVC cost/support",
+    "EVC expectancy",
+    "EVC value",
+    "Wellness",
+    "Final grade"
+  ],
+  "input_rows": 191,
+  "complete_rows": 111,
+  "missing_by_variable": {
+    "log_page_views": 2,
+    "log_lms_participations": 2,
+    "cost_support": 78,
+    "expectancy": 78,
+    "value": 78,
+    "wellness": 78,
+    "percentage": 0
+  },
+  "complete_by_term": {
+    "2024 FAL": 9,
+    "2025 FAL": 11,
+    "2025 SPR": 28,
+    "2025 WTR": 10,
+    "2026 SPR": 29,
+    "2026 WTR": 24
+  },
+  "excluded_summer_policy": {
+    "policy": "exclude SMR and summer course metadata; retain Fall/Winter/Spring only in study",
+    "metadata_fields": [
+      "cohort"
+    ],
+    "input_rows": 191,
+    "excluded_summer_rows": 0,
+    "retained_rows": 191,
+    "excluded_labels": {}
+  },
+  "draws_per_chain": 10000,
+  "chains": 4,
+  "warmup": 20000,
+  "retained_every": 10,
+  "total_retained_per_scenario": 40000,
+  "score": "BGe, normal-Wishart subset marginals; centered/scaled per analysis dataset",
+  "graph_prior": "independent dyads (1-q, q/2, q/2), jointly conditioned on acyclicity; q=2/3 uniform over DAGs",
+  "constraints": "acyclic only; no imposed arrow directions; all 7 nodes, no parent cap",
+  "diagnostics_note": "log scores rounded to 8 decimal places for ranks only, to identify numerical ties between equivalent DAGs; binary tail ESS not applicable; constant indicators have no estimable R-hat/ESS",
+  "seed": 7291,
+  "scenarios": [
+    {
+      "scenario": "complete_main",
+      "n": 111,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.0018971774774101,
+      "min_bulk_ESS_nonrare": 2850.200457511222,
+      "acceptance_per_chain": [
+        0.15994,
+        0.16155,
+        0.15846,
+        0.16164
+      ],
+      "mean_edges": 5.059825
+    },
+    {
+      "scenario": "complete_sparse_prior",
+      "n": 111,
+      "adjacency_prior_parameter": 0.2,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.001544947325004,
+      "min_bulk_ESS_nonrare": 2051.5099156811066,
+      "acceptance_per_chain": [
+        0.07645,
+        0.07689,
+        0.07609,
+        0.07687
+      ],
+      "mean_edges": 3.6323999999999996
+    },
+    {
+      "scenario": "complete_uniform_dag_prior",
+      "n": 111,
+      "adjacency_prior_parameter": 0.6666666666666666,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.0020563022822677,
+      "min_bulk_ESS_nonrare": 2766.5228592395115,
+      "acceptance_per_chain": [
+        0.22352,
+        0.22398,
+        0.22309,
+        0.22639
+      ],
+      "mean_edges": 6.22715
+    },
+    {
+      "scenario": "complete_prior_scale_quarter",
+      "n": 111,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 0.25,
+      "max_Rhat_nonrare": 1.001741589815549,
+      "min_bulk_ESS_nonrare": 2027.527701041634,
+      "acceptance_per_chain": [
+        0.07725,
+        0.07767,
+        0.07665,
+        0.07774
+      ],
+      "mean_edges": 3.6445999999999996
+    },
+    {
+      "scenario": "complete_prior_scale_four",
+      "n": 111,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 4.0,
+      "max_Rhat_nonrare": 1.0022689449331446,
+      "min_bulk_ESS_nonrare": 3033.414164283023,
+      "acceptance_per_chain": [
+        0.28029,
+        0.27991,
+        0.27823,
+        0.28133
+      ],
+      "mean_edges": 7.587425
+    },
+    {
+      "scenario": "complete_within_cohort",
+      "n": 111,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.0019531771698045,
+      "min_bulk_ESS_nonrare": 2521.0977105767324,
+      "acceptance_per_chain": [
+        0.15829,
+        0.16126,
+        0.15887,
+        0.1612
+      ],
+      "mean_edges": 5.15915
+    },
+    {
+      "scenario": "median_imputed",
+      "n": 191,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.0018443569450408,
+      "min_bulk_ESS_nonrare": 2553.296094887393,
+      "acceptance_per_chain": [
+        0.15833,
+        0.16231,
+        0.16019,
+        0.16033
+      ],
+      "mean_edges": 5.9292
+    },
+    {
+      "scenario": "earlier_terms_only",
+      "n": 82,
+      "adjacency_prior_parameter": 0.5,
+      "prior_predictive_scale": 1.0,
+      "max_Rhat_nonrare": 1.0017309405071688,
+      "min_bulk_ESS_nonrare": 2721.400721960495,
+      "acceptance_per_chain": [
+        0.17317,
+        0.17813,
+        0.17734,
+        0.17656
+      ],
+      "mean_edges": 5.3111
+    }
+  ],
+  "scope": "exploratory all-cohort association structure; not prospective validation or causal identification"
+}
