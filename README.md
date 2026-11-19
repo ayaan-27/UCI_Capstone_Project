@@ -25,13 +25,30 @@ Open a file on GitHub and use **Download raw file** near the top-right of the vi
 
 These are explored retrospective comparisons with unverified grade-release timing, not independent prospective confirmation or evidence of coaching effectiveness. Numeric and RETRO experiments use different training windows; their MAEs should not be conflated.
 
+## What-if dashboard
+
+The Streamlit demo runs from the repository root with Python 3.12.
+
+```bash
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m streamlit run streamlit_app.py
+```
+
+- **Student view** compares a synthetic baseline profile with edited LMS counts and optional survey scores. It shows the point estimate, 90% posterior predictive interval and model probability of finishing below the illustrative 70% cutoff.
+- **Faculty view** applies the same edits across an eligible historical term and displays aggregate grade-band probabilities and average LMS inputs. Each fit uses earlier terms. Missing inputs retain the study’s training-median treatment.
+- **Model evidence** shows saved later-term forecast errors for the selected assessment bundle. The dashboard uses the fitted associations to compare inputs. Assessing the effect of a coaching intervention requires a separate evaluation.
+
+The demo uses the committed processed data and study results. To pilot it with current students, choose a forecast date, verify which grades and LMS activity were available then, confirm survey scoring, and test forecast accuracy and probability calibration on new cohorts. Add authenticated access and agree on rules for student and cohort data before connecting live records. Bloom levels, reflection sentiment, and a weekly LMS outlook need time-aligned measurements and their own validation.
+
 ## Project structure
 
 | Path | Purpose |
 |---|---|
+| `streamlit_app.py` | Student and faculty what-if dashboard and model evidence |
 | `deliverables/` | Current presentation, report, notes and downloadable public ZIP |
 | `posterior_study/` | Statistical models, Gibbs diagnostics, RETRO/text comparison, weight audit, summer policy and packaging |
-| `tests/` | 14 statistical and data-integrity tests |
+| `tests/` | Statistical, data-integrity and dashboard checks |
 | `posterior_results/` | Four-term ablations, posterior summaries, risks, diagnostics, sensitivities and figures |
 | `retro_followup_results/` | RETRO audits, two-term text comparisons and candidate-model benchmarks |
 | `grading_results/` | Confirmed weights, assignment inventory and historical mapping audit |
@@ -58,7 +75,7 @@ python3.12 -m venv .venv
 bash run_available_studies.sh
 ```
 
-The runner executes the numeric study and all 14 tests. It skips RETRO/workbook recomputation with a clear message when the user-provided source files are absent; existing derived results remain available. To recompute those stages locally, provide `data/retro_uploaded.csv` and `data/assignment_weights_uploaded.xlsx`, or pass your paths directly:
+The runner executes the numeric study and test suite. It skips RETRO/workbook recomputation with a clear message when the user-provided source files are absent; existing derived results remain available. To recompute those stages locally, provide `data/retro_uploaded.csv` and `data/assignment_weights_uploaded.xlsx`, or pass your paths directly:
 
 ```bash
 .venv/bin/python -m posterior_study.retro_followup --retro-csv /path/to/retro.csv

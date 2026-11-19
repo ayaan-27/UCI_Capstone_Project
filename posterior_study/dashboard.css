@@ -1,0 +1,194 @@
+:root {
+    --mlc-ink: #142746;
+    --mlc-muted: #4b607d;
+    --mlc-border: #dbe4f0;
+    --mlc-accent: #2457d5;
+}
+
+[data-testid="stMainBlockContainer"] {
+    max-width: 1280px;
+    padding: 3.25rem 2.5rem 3rem;
+}
+
+[data-testid="stHeader"] {
+    background: transparent;
+}
+
+.mlc-hero {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+    margin-bottom: .45rem;
+    padding: 1.75rem 2.25rem 1.8rem;
+    color: #f6f9ff;
+    border-radius: 1.25rem;
+    background: radial-gradient(ellipse at 92% 15%, #254e96 0%, transparent 52%),
+        linear-gradient(115deg, #0e203d 12%, #162e57 100%);
+}
+
+.mlc-hero::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0 0 0 58%;
+    background-image: linear-gradient(#a7c6ff18 1px, transparent 1px),
+        linear-gradient(90deg, #a7c6ff18 1px, transparent 1px);
+    background-size: 30px 30px;
+    mask-image: linear-gradient(90deg, transparent, black);
+}
+
+.mlc-brand {
+    display: flex;
+    gap: .62rem;
+    align-items: center;
+    font-weight: 650;
+    font-size: .95rem;
+    letter-spacing: .01em;
+}
+
+.mlc-emblem {
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 3px;
+    width: 27px;
+    height: 27px;
+    padding: 6px;
+    border-radius: 7px;
+    background: #e5efff;
+}
+
+.mlc-emblem i {
+    width: 3px;
+    border-radius: 2px;
+    background: #2457d5;
+}
+
+.mlc-emblem i:nth-child(1) { height: 5px; }
+.mlc-emblem i:nth-child(2) { height: 9px; }
+.mlc-emblem i:nth-child(3) { height: 13px; }
+
+.mlc-hero h1 {
+    color: #fff;
+    margin: .85rem 0 .35rem;
+    padding: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    line-height: 1.08;
+    font-weight: 730;
+    letter-spacing: -.04em;
+}
+
+.mlc-hero p {
+    max-width: 80ch;
+    margin: 0;
+    color: #d3e2ff;
+    line-height: 1.4;
+}
+
+.mlc-demo {
+    position: absolute;
+    top: 1.78rem;
+    right: 2.25rem;
+    display: inline-flex;
+    align-items: center;
+    gap: .48rem;
+    padding: .28rem .68rem;
+    background: #142b52bb;
+    border: 1px solid #adc9ff66;
+    border-radius: 999px;
+    color: #e0ebff;
+    font-size: .77rem;
+    font-weight: 650;
+}
+
+.mlc-demo::before {
+    content: "";
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background: #9cbcff;
+}
+
+[data-testid="stTabs"] button[role="tab"] p {
+    font-size: .95rem;
+    font-weight: 650;
+}
+
+[data-testid="stTabs"] [role="tabpanel"] {
+    padding-top: .55rem;
+}
+
+.st-key-student-controls,
+.st-key-student-results,
+.st-key-faculty-controls,
+.st-key-faculty-results,
+.st-key-faculty-activity,
+.st-key-evidence-results,
+.st-key-evidence-pilot {
+    background: #fff;
+    border-color: var(--mlc-border);
+    border-radius: 1rem;
+    box-shadow: 0 5px 20px #14274607;
+}
+
+:is(.st-key-student-controls, .st-key-student-results, .st-key-faculty-controls,
+       .st-key-faculty-results, .st-key-faculty-activity,
+       .st-key-evidence-results, .st-key-evidence-pilot) h3 {
+    font-size: 1.4rem;
+    letter-spacing: -.021em;
+    padding: .25rem 0 0;
+}
+
+div[data-testid="stCaptionContainer"] {
+    opacity: 1;
+}
+
+[data-testid="stCaptionContainer"] p {
+    color: var(--mlc-muted);
+}
+
+[data-testid="stMetric"] {
+    min-width: 0;
+}
+
+[data-testid="stMetricLabel"] p {
+    font-weight: 600;
+    color: var(--mlc-muted);
+}
+
+[data-testid="stMetricValue"] {
+    font-size: clamp(1.55rem, 3.1vw, 2.35rem);
+    font-weight: 700;
+    letter-spacing: -.045em;
+    font-variant-numeric: tabular-nums;
+}
+
+.st-key-student-results [data-testid="stMetricDelta"],
+.st-key-faculty-results [data-testid="stMetricDelta"] {
+    font-size: .86rem;
+}
+
+[data-testid="stAlert"] p {
+    font-size: .88rem;
+    line-height: 1.45;
+}
+
+@media (max-width: 680px) {
+    [data-testid="stMainBlockContainer"] {
+        padding: 3.2rem 1rem 2rem;
+    }
+
+    .mlc-hero {
+        padding: 1.2rem 1rem 1.45rem;
+    }
+
+    .mlc-demo {
+        top: 1.15rem;
+        right: 1rem;
+    }
+
+    [data-testid="stTabs"] button[role="tab"] p {
+        font-size: .85rem;
+    }
+}
